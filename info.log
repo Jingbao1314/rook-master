@@ -1,0 +1,49 @@
+INFO 24 [2018-08-30 12:46:13,664] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x1e795b5b, /127.0.0.1:60956 => /127.0.0.1:7721])
+INFO 16 [2018-08-30 12:46:13,714] control.Login - this is Login{id:0,name:null,sex:null,balance:null,password:null,paypassword:null,phone:15555555555}
+INFO 24 [2018-08-30 12:46:14,128] util.JdbcMethod.LoginJdbc - LoginJdbc.select{id:0,name:null,sex:null,balance:null,password:null,paypassword:null,phone:15555555555}
+INFO 24 [2018-08-30 12:46:30,270] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xb03d1399, /127.0.0.1:60962 => /127.0.0.1:7721])
+INFO 16 [2018-08-30 12:46:30,275] control.Login - this is Login{id:0,name:null,sex:null,balance:null,password:null,paypassword:null,phone:15555555555}
+INFO 24 [2018-08-30 12:46:48,262] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xc1b3e314, /127.0.0.1:60970 => /127.0.0.1:7721])
+INFO 16 [2018-08-30 12:46:48,263] control.Login - this is Login{id:0,name:null,sex:null,balance:null,password:null,paypassword:null,phone:15555555555}
+INFO 24 [2018-08-30 12:46:58,827] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xc1b3e314, /127.0.0.1:60970 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 12:47:11,136] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xc1b3e314, /127.0.0.1:60970 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 12:50:41,338] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xc1b3e314, /127.0.0.1:60970 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 12:51:01,869] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xc1b3e314, /127.0.0.1:60970 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 12:51:12,139] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xc1b3e314, /127.0.0.1:60970 => /127.0.0.1:7721])
+INFO 18 [2018-08-30 12:51:12,146] util.JdbcMethod.ImproveJdbc - PayJdbc.recharge:{id:0,name:null,sex:null,balance:54.00,password:54.00,paypassword:null,phone:15555555555}
+INFO 24 [2018-08-30 12:51:17,832] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xc1b3e314, /127.0.0.1:60970 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 12:52:41,368] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xc1b3e314, /127.0.0.1:60970 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 13:04:31,738] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xa22b2266, /127.0.0.1:33090 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 13:06:48,007] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xa22b2266, /127.0.0.1:33090 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 13:07:44,082] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xa22b2266, /127.0.0.1:33090 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 16:04:13,125] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x876389a9, /127.0.0.1:38410 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 16:08:12,806] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x7d349d23, /127.0.0.1:38534 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 16:49:56,527] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x202165b6, /127.0.0.1:40020 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 16:50:03,440] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x202165b6, /127.0.0.1:40020 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 16:50:10,009] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x202165b6, /127.0.0.1:40020 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 16:50:17,255] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x202165b6, /127.0.0.1:40020 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 16:51:13,471] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x202165b6, /127.0.0.1:40020 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 16:51:22,362] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x202165b6, /127.0.0.1:40020 => /127.0.0.1:7721])
+INFO 18 [2018-08-30 16:51:22,727] util.JdbcMethod.ImproveJdbc - PayJdbc.recharge:{id:0,name:null,sex:null,balance:23.00,password:23.00,paypassword:null,phone:15555555555}
+INFO 24 [2018-08-30 16:51:28,889] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x202165b6, /127.0.0.1:40020 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 16:52:36,341] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x202165b6, /127.0.0.1:40020 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 16:53:09,619] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x202165b6, /127.0.0.1:40020 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 16:53:18,496] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x202165b6, /127.0.0.1:40020 => /127.0.0.1:7721])
+INFO 18 [2018-08-30 16:53:18,612] util.JdbcMethod.ImproveJdbc - PayJdbc.recharge:{id:0,name:null,sex:null,balance:23.00,password:23.00,paypassword:null,phone:15555555555}
+INFO 24 [2018-08-30 16:53:27,257] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x202165b6, /127.0.0.1:40020 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 16:53:33,349] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x202165b6, /127.0.0.1:40020 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 16:56:36,985] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x202165b6, /127.0.0.1:40020 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 17:01:52,824] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x540accca, /127.0.0.1:40460 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 17:16:13,174] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x0067748c, /127.0.0.1:40760 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 18:30:24,792] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x0ae10a9b, /127.0.0.1:43574 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 19:25:23,862] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xc8e65d5b, /127.0.0.1:44444 => /127.0.0.1:7721])
+INFO 28 [2018-08-30 19:25:23,864] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='null', caccount='45', cdata=null, csaledata=null, csaleaccount='null', ctype='sgdjas', cdescribe='fsad', cstate='null', photourl='null', phone='15555555555'}
+INFO 24 [2018-08-30 19:25:56,477] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xc8e65d5b, /127.0.0.1:44444 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 19:26:14,373] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xc8e65d5b, /127.0.0.1:44444 => /127.0.0.1:7721])
+INFO 28 [2018-08-30 19:26:14,374] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='null', caccount='1323', cdata=null, csaledata=null, csaleaccount='null', ctype='dsa', cdescribe='afsdf', cstate='null', photourl='null', phone='15555555555'}
+INFO 24 [2018-08-30 19:26:18,772] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xc8e65d5b, /127.0.0.1:44444 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 19:27:47,140] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xc8e65d5b, /127.0.0.1:44444 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 19:29:14,154] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xc8e65d5b, /127.0.0.1:44444 => /127.0.0.1:7721])
+INFO 24 [2018-08-30 19:29:22,942] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xc8e65d5b, /127.0.0.1:44444 => /127.0.0.1:7721])
+INFO 18 [2018-08-30 19:29:23,057] util.JdbcMethod.ImproveJdbc - PayJdbc.recharge:{id:0,name:null,sex:null,balance:23.00,password:23.00,paypassword:null,phone:15555555555}
+INFO 24 [2018-08-30 19:29:27,846] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xc8e65d5b, /127.0.0.1:44444 => /127.0.0.1:7721])

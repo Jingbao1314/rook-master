@@ -1,0 +1,225 @@
+INFO 24 [2018-08-28 09:44:29,328] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xbab81052, /127.0.0.1:46848 => /127.0.0.1:7721])
+INFO 24 [2018-08-28 09:44:29,632] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x13030c8d, /127.0.0.1:46850 => /127.0.0.1:7721])
+INFO 24 [2018-08-28 09:44:29,919] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x6b59c892, /127.0.0.1:46852 => /127.0.0.1:7721])
+INFO 58 [2018-08-28 09:44:31,273] util.JdbcMethod.RegisterJdbc - Register.register{id:0,name:qww,sex:null,balance:null,password:null,paypassword:0,phone:13999999999}
+INFO 58 [2018-08-28 09:44:31,273] util.JdbcMethod.RegisterJdbc - Register.register{id:0,name:qww,sex:null,balance:null,password:null,paypassword:0,phone:13999999999}
+INFO 58 [2018-08-28 09:44:31,277] util.JdbcMethod.RegisterJdbc - Register.register{id:0,name:qww,sex:null,balance:null,password:null,paypassword:0,phone:13999999999}
+INFO 24 [2018-08-28 09:46:17,842] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x6b59c892, /127.0.0.1:46852 => /127.0.0.1:7721])
+INFO 58 [2018-08-28 09:46:17,847] util.JdbcMethod.RegisterJdbc - Register.register{id:0,name:qww,sex:null,balance:null,password:null,paypassword:0,phone:13999999999}
+INFO 24 [2018-08-28 09:48:29,463] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x6b59c892, /127.0.0.1:46852 => /127.0.0.1:7721])
+INFO 58 [2018-08-28 09:48:29,470] util.JdbcMethod.RegisterJdbc - Register.register{id:0,name:qwe,sex:null,balance:null,password:null,paypassword:0,phone:13777777777}
+INFO 24 [2018-08-28 09:50:12,422] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x6b59c892, /127.0.0.1:46852 => /127.0.0.1:7721])
+INFO 58 [2018-08-28 09:50:12,429] util.JdbcMethod.RegisterJdbc - Register.register{id:0,name:rerqer,sex:null,balance:null,password:null,paypassword:0,phone:13777777777}
+INFO 24 [2018-08-28 10:23:02,117] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x1058abfa, /127.0.0.1:47574 => /127.0.0.1:7721])
+INFO 16 [2018-08-28 10:23:03,312] control.Login - this is Login{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-28 10:23:03,316] util.JdbcMethod.LoginJdbc - LoginJdbc.select{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-28 10:23:06,757] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x41256cd3, /127.0.0.1:47582 => /127.0.0.1:7721])
+INFO 16 [2018-08-28 10:23:06,757] control.Login - this is Login{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-28 10:24:28,474] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x41256cd3, /127.0.0.1:47582 => /127.0.0.1:7721])
+INFO 24 [2018-08-28 10:24:36,239] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x41256cd3, /127.0.0.1:47582 => /127.0.0.1:7721])
+INFO 16 [2018-08-28 10:24:36,240] control.Login - this is Login{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-28 10:25:06,409] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x41256cd3, /127.0.0.1:47582 => /127.0.0.1:7721])
+INFO 58 [2018-08-28 10:25:06,411] util.JdbcMethod.RegisterJdbc - Register.register{id:0,name:QERQE,sex:null,balance:null,password:null,paypassword:0,phone:13777777777}
+INFO 24 [2018-08-28 10:25:44,707] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x41256cd3, /127.0.0.1:47582 => /127.0.0.1:7721])
+INFO 24 [2018-08-28 10:28:05,262] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x41256cd3, /127.0.0.1:47582 => /127.0.0.1:7721])
+INFO 16 [2018-08-28 10:28:05,268] control.Login - this is Login{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-28 10:29:26,023] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x41256cd3, /127.0.0.1:47582 => /127.0.0.1:7721])
+INFO 16 [2018-08-28 10:29:26,044] control.Login - this is Login{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-28 10:29:28,458] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x4344fab7, /127.0.0.1:47738 => /127.0.0.1:7721])
+INFO 16 [2018-08-28 10:29:28,459] control.Login - this is Login{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-28 10:30:08,769] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x4344fab7, /127.0.0.1:47738 => /127.0.0.1:7721])
+INFO 16 [2018-08-28 10:30:08,770] control.Login - this is Login{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-28 22:35:40,078] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x48293e4c, /127.0.0.1:37828 => /127.0.0.1:7721])
+INFO 16 [2018-08-28 22:35:41,586] control.Login - this is Login{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-28 22:35:43,245] util.JdbcMethod.LoginJdbc - LoginJdbc.select{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-28 22:35:46,025] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x66627423, /127.0.0.1:37982 => /127.0.0.1:7721])
+INFO 16 [2018-08-28 22:35:46,035] control.Login - this is Login{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-28 22:42:04,718] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x83464dfe, /127.0.0.1:39102 => /127.0.0.1:7721])
+ERROR 70 [2018-08-28 22:42:04,736] control.Store - [1535467324736]Store doGet error
+java.lang.NullPointerException
+	at util.JdbcMethod.StoreJdbc.getAll(StoreJdbc.java:152)
+	at control.Store.doGet(Store.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:95)
+	at mainServer.WorkRunable.run(WorkRunable.java:54)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-28 22:42:18,365] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xe5a3b703, /127.0.0.1:39144 => /127.0.0.1:7721])
+ERROR 70 [2018-08-28 22:42:18,366] control.Store - [1535467338366]Store doGet error
+java.lang.NullPointerException
+	at util.JdbcMethod.StoreJdbc.getAll(StoreJdbc.java:152)
+	at control.Store.doGet(Store.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:95)
+	at mainServer.WorkRunable.run(WorkRunable.java:54)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-28 22:44:01,854] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xe5a3b703, /127.0.0.1:39144 => /127.0.0.1:7721])
+INFO 24 [2018-08-28 22:46:57,114] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xe5a3b703, /127.0.0.1:39144 => /127.0.0.1:7721])
+INFO 24 [2018-08-28 22:47:03,080] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xe5a3b703, /127.0.0.1:39144 => /127.0.0.1:7721])
+INFO 24 [2018-08-28 22:47:04,429] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xe5a3b703, /127.0.0.1:39144 => /127.0.0.1:7721])
+INFO 24 [2018-08-28 22:51:34,369] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x6d351237, /127.0.0.1:39402 => /127.0.0.1:7721])
+INFO 28 [2018-08-28 22:51:34,371] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone=' 13333333333'}
+ERROR 75 [2018-08-28 22:51:34,406] util.JdbcMethod.StoreJdbc - This is error:
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'phone' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2983)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1604)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1519)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1504)
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:62)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:95)
+	at mainServer.WorkRunable.run(WorkRunable.java:54)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-28 22:52:16,606] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x4e52e8f8, /127.0.0.1:39432 => /127.0.0.1:7721])
+INFO 28 [2018-08-28 22:52:16,606] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='13333333333'}
+INFO 24 [2018-08-28 22:52:27,214] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x0eabcd9b, /127.0.0.1:39448 => /127.0.0.1:7721])
+INFO 28 [2018-08-28 22:52:27,214] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='13333333333'}
+INFO 24 [2018-08-28 22:52:43,605] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x338b1ead, /127.0.0.1:39488 => /127.0.0.1:7721])
+INFO 24 [2018-08-28 22:52:45,739] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x338b1ead, /127.0.0.1:39488 => /127.0.0.1:7721])
+INFO 24 [2018-08-28 22:54:11,062] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x338b1ead, /127.0.0.1:39488 => /127.0.0.1:7721])
+INFO 24 [2018-08-28 23:05:03,663] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd2a74feb, /127.0.0.1:39826 => /127.0.0.1:7721])
+INFO 28 [2018-08-28 23:05:03,668] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='null', caccount='null', cdata=null, csaledata=null, csaleaccount='null', ctype='null', cdescribe='null', cstate='null', photourl='null', phone='13333333333'}
+ERROR 32 [2018-08-28 23:05:03,678] control.Store - [1535468703678]Store doStore error
+redis.clients.jedis.exceptions.JedisDataException: value sent to redis cannot be null
+	at redis.clients.util.SafeEncoder.encode(SafeEncoder.java:28)
+	at redis.clients.jedis.Client.exists(Client.java:61)
+	at redis.clients.jedis.Jedis.exists(Jedis.java:178)
+	at util.redisutil.RedisOperating.exists(RedisOperating.java:116)
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:43)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:95)
+	at mainServer.WorkRunable.run(WorkRunable.java:54)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-28 23:05:47,232] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd2a74feb, /127.0.0.1:39826 => /127.0.0.1:7721])
+INFO 28 [2018-08-28 23:05:47,233] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='null', caccount='null', cdata=null, csaledata=null, csaleaccount='null', ctype='null', cdescribe='null', cstate='null', photourl='null', phone='13333333333'}
+ERROR 32 [2018-08-28 23:05:47,236] control.Store - [1535468747236]Store doStore error
+redis.clients.jedis.exceptions.JedisDataException: value sent to redis cannot be null
+	at redis.clients.util.SafeEncoder.encode(SafeEncoder.java:28)
+	at redis.clients.jedis.Client.exists(Client.java:61)
+	at redis.clients.jedis.Jedis.exists(Jedis.java:178)
+	at util.redisutil.RedisOperating.exists(RedisOperating.java:116)
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:43)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:95)
+	at mainServer.WorkRunable.run(WorkRunable.java:54)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-28 23:10:21,959] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x3518a7ed, /127.0.0.1:40192 => /127.0.0.1:7721])
+INFO 28 [2018-08-28 23:10:22,014] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='null', caccount='null', cdata=null, csaledata=null, csaleaccount='null', ctype='null', cdescribe='null', cstate='null', photourl='null', phone='13333333333'}
+ERROR 32 [2018-08-28 23:10:22,144] control.Store - [1535469022144]Store doStore error
+java.lang.NullPointerException
+	at java.math.BigDecimal.<init>(BigDecimal.java:806)
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:53)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:95)
+	at mainServer.WorkRunable.run(WorkRunable.java:54)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-28 23:12:14,341] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x3518a7ed, /127.0.0.1:40192 => /127.0.0.1:7721])
+INFO 28 [2018-08-28 23:12:14,347] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='null', caccount='54', cdata=null, csaledata=null, csaleaccount='null', ctype='fasdfdaf', cdescribe='fdsafd', cstate='null', photourl='null', phone='13333333333'}
+ERROR 77 [2018-08-28 23:12:14,353] util.JdbcMethod.StoreJdbc - This is error:
+com.mysql.jdbc.exceptions.MySQLIntegrityConstraintViolationException: Duplicate entry '13333333333__2' for key 'PRIMARY'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:931)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2985)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1604)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1519)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1504)
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:64)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:95)
+	at mainServer.WorkRunable.run(WorkRunable.java:54)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-28 23:15:42,801] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x2014920a, /127.0.0.1:40518 => /127.0.0.1:7721])
+INFO 28 [2018-08-28 23:15:42,830] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='null', caccount='54', cdata=null, csaledata=null, csaleaccount='null', ctype='fasdfdaf', cdescribe='fdsafd', cstate='null', photourl='null', phone='13333333333'}
+ERROR 77 [2018-08-28 23:15:42,912] util.JdbcMethod.StoreJdbc - This is error:
+com.mysql.jdbc.exceptions.MySQLIntegrityConstraintViolationException: Duplicate entry '13333333333__2' for key 'PRIMARY'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:931)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2985)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1604)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1519)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1504)
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:64)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:95)
+	at mainServer.WorkRunable.run(WorkRunable.java:54)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-28 23:17:34,493] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xe85d80df, /127.0.0.1:40768 => /127.0.0.1:7721])
+INFO 28 [2018-08-28 23:17:34,523] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='null', caccount='54', cdata=null, csaledata=null, csaleaccount='null', ctype='fasdfdaf', cdescribe='fdsafd', cstate='null', photourl='null', phone='13333333333'}
+INFO 24 [2018-08-28 23:18:14,075] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xe85d80df, /127.0.0.1:40768 => /127.0.0.1:7721])
+INFO 24 [2018-08-28 23:19:54,620] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xe85d80df, /127.0.0.1:40768 => /127.0.0.1:7721])
+INFO 24 [2018-08-28 23:34:37,944] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x26f20c07, /127.0.0.1:41068 => /127.0.0.1:7721])
+INFO 18 [2018-08-28 23:34:38,865] util.JdbcMethod.ImproveJdbc - RechargeJdbc.recharge:{id:0,name:null,sex:null,balance:100,password:100,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-28 23:34:40,991] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x26f20c07, /127.0.0.1:41068 => /127.0.0.1:7721])
+INFO 24 [2018-08-28 23:35:28,500] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x26f20c07, /127.0.0.1:41068 => /127.0.0.1:7721])
+INFO 18 [2018-08-28 23:35:28,501] util.JdbcMethod.ImproveJdbc - RechargeJdbc.recharge:{id:0,name:null,sex:null,balance:500,password:500,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-28 23:35:29,746] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x26f20c07, /127.0.0.1:41068 => /127.0.0.1:7721])
+INFO 24 [2018-08-28 23:35:41,144] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x26f20c07, /127.0.0.1:41068 => /127.0.0.1:7721])
+INFO 53 [2018-08-28 23:35:41,145] util.JdbcMethod.ImproveJdbc - ImproveJdbc.improve:{id:0,name:null,sex:男,balance:null,password:null,paypassword:654321,phone:13333333333}
+INFO 24 [2018-08-28 23:35:58,184] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x26f20c07, /127.0.0.1:41068 => /127.0.0.1:7721])
+INFO 24 [2018-08-28 23:36:18,339] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x26f20c07, /127.0.0.1:41068 => /127.0.0.1:7721])
+INFO 18 [2018-08-28 23:36:18,340] util.JdbcMethod.ImproveJdbc - RechargeJdbc.recharge:{id:0,name:null,sex:null,balance:500,password:500,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-28 23:36:19,667] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x26f20c07, /127.0.0.1:41068 => /127.0.0.1:7721])
+INFO 24 [2018-08-28 23:36:29,175] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x26f20c07, /127.0.0.1:41068 => /127.0.0.1:7721])
+INFO 53 [2018-08-28 23:36:29,175] util.JdbcMethod.ImproveJdbc - ImproveJdbc.improve:{id:0,name:null,sex:男,balance:null,password:null,paypassword:123456,phone:13333333333}
+INFO 24 [2018-08-28 23:38:22,833] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x26f20c07, /127.0.0.1:41068 => /127.0.0.1:7721])
+INFO 18 [2018-08-28 23:38:22,835] util.JdbcMethod.ImproveJdbc - RechargeJdbc.recharge:{id:0,name:null,sex:null,balance:50,password:50,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-28 23:44:08,556] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xb934a892, /127.0.0.1:41634 => /127.0.0.1:7721])
+INFO 18 [2018-08-28 23:44:08,566] util.JdbcMethod.ImproveJdbc - RechargeJdbc.recharge:{id:0,name:null,sex:null,balance:500,password:500,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-28 23:44:13,024] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xb934a892, /127.0.0.1:41634 => /127.0.0.1:7721])
+INFO 24 [2018-08-28 23:47:33,582] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xb934a892, /127.0.0.1:41634 => /127.0.0.1:7721])
+INFO 18 [2018-08-28 23:47:33,586] util.JdbcMethod.ImproveJdbc - RechargeJdbc.recharge:{id:0,name:null,sex:null,balance:50,password:50,paypassword:0,phone:13333333333}

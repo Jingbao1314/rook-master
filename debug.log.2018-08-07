@@ -1,0 +1,360 @@
+DEBUG [2018-08-07 10:46:11,679] mainServer.Server - aaaa
+DEBUG [2018-08-07 10:46:11,753] io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+DEBUG [2018-08-07 10:46:11,777] io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 4
+DEBUG [2018-08-07 10:46:11,921] io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+DEBUG [2018-08-07 10:46:11,922] io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+DEBUG [2018-08-07 10:46:11,922] io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+DEBUG [2018-08-07 10:46:11,922] io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+DEBUG [2018-08-07 10:46:11,928] io.netty.util.internal.PlatformDependent - Java version: 8
+DEBUG [2018-08-07 10:46:11,928] io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+DEBUG [2018-08-07 10:46:11,928] io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+DEBUG [2018-08-07 10:46:11,929] io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+DEBUG [2018-08-07 10:46:11,932] io.netty.util.internal.PlatformDependent - Javassist: unavailable
+DEBUG [2018-08-07 10:46:11,932] io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+DEBUG [2018-08-07 10:46:11,938] io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+DEBUG [2018-08-07 10:46:11,938] io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG [2018-08-07 10:46:11,938] io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+DEBUG [2018-08-07 10:46:11,984] io.netty.util.internal.NativeLibraryLoader - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+DEBUG [2018-08-07 10:46:11,984] io.netty.util.internal.NativeLibraryLoader - -Dio.netty.netty.workdir: /tmp (io.netty.tmpdir)
+DEBUG [2018-08-07 10:46:12,163] io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 2
+DEBUG [2018-08-07 10:46:12,166] io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 2
+DEBUG [2018-08-07 10:46:12,166] io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+DEBUG [2018-08-07 10:46:12,166] io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+DEBUG [2018-08-07 10:46:12,166] io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+DEBUG [2018-08-07 10:46:12,167] io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+DEBUG [2018-08-07 10:46:12,167] io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+DEBUG [2018-08-07 10:46:12,167] io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+DEBUG [2018-08-07 10:46:12,167] io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG [2018-08-07 10:46:12,167] io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG [2018-08-07 10:46:12,282] io.netty.channel.DefaultChannelId - -Dio.netty.processId: 3974 (auto-detected)
+DEBUG [2018-08-07 10:46:12,286] io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 84:ef:18:ff:fe:d2:55:55 (auto-detected)
+DEBUG [2018-08-07 10:46:12,291] io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xdb3811e5661bb08b (took 52 ms)
+DEBUG [2018-08-07 10:46:12,368] io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+DEBUG [2018-08-07 10:46:12,368] io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+DEBUG [2018-08-07 10:46:12,380] io.netty.util.NetUtil - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+DEBUG [2018-08-07 10:46:12,381] io.netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128
+DEBUG [2018-08-07 10:46:20,076] io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetectionLevel: simple
+DEBUG [2018-08-07 10:46:20,314] io.netty.util.Recycler - -Dio.netty.recycler.maxCapacity: 262144
+INFO [2018-08-07 10:46:20,341] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x8e86324f, /127.0.0.1:56324 => /127.0.0.1:7721])
+INFO [2018-08-07 10:46:20,561] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodspojo.Goods@c7807ff
+ERROR [2018-08-07 10:46:21,771] util.JdbcMethod.StoreJdbc - This is error:
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1039)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:50)
+	at control.Store.doStore(Store.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:93)
+	at mainServer.InHandler.channelRead(InHandler.java:48)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.channel.ChannelHandlerAdapter.channelRead(ChannelHandlerAdapter.java:143)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:243)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:956)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:618)
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:331)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:250)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO [2018-08-07 10:46:48,008] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xdd63e95c, /127.0.0.1:56340 => /127.0.0.1:7721])
+INFO [2018-08-07 10:46:48,010] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodspojo.Goods@3366d305
+ERROR [2018-08-07 10:46:48,065] util.JdbcMethod.StoreJdbc - This is error:
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1039)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:50)
+	at control.Store.doStore(Store.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:93)
+	at mainServer.InHandler.channelRead(InHandler.java:48)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.channel.ChannelHandlerAdapter.channelRead(ChannelHandlerAdapter.java:143)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:243)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:956)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:618)
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:331)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:250)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO [2018-08-07 12:31:32,669] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xe9a57d50, /127.0.0.1:59088 => /127.0.0.1:7721])
+INFO [2018-08-07 12:31:32,670] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodspojo.Goods@1e6b67d1
+DEBUG [2018-08-07 13:35:01,295] io.netty.buffer.PoolThreadCache - Freed 2 thread-local buffer(s) from thread: pool-2-thread-4
+DEBUG [2018-08-07 13:39:19,336] io.netty.buffer.PoolThreadCache - Freed 3 thread-local buffer(s) from thread: pool-2-thread-2
+DEBUG [2018-08-07 14:15:18,994] org.apache.commons.httpclient.HttpClient - Java version: 1.8.0_131
+DEBUG [2018-08-07 14:15:19,000] org.apache.commons.httpclient.HttpClient - Java vendor: Oracle Corporation
+DEBUG [2018-08-07 14:15:19,000] org.apache.commons.httpclient.HttpClient - Java class path: /home/jingbao/jdk1.8/jre/lib/charsets.jar:/home/jingbao/jdk1.8/jre/lib/deploy.jar:/home/jingbao/jdk1.8/jre/lib/ext/cldrdata.jar:/home/jingbao/jdk1.8/jre/lib/ext/dnsns.jar:/home/jingbao/jdk1.8/jre/lib/ext/jaccess.jar:/home/jingbao/jdk1.8/jre/lib/ext/jfxrt.jar:/home/jingbao/jdk1.8/jre/lib/ext/localedata.jar:/home/jingbao/jdk1.8/jre/lib/ext/nashorn.jar:/home/jingbao/jdk1.8/jre/lib/ext/sunec.jar:/home/jingbao/jdk1.8/jre/lib/ext/sunjce_provider.jar:/home/jingbao/jdk1.8/jre/lib/ext/sunpkcs11.jar:/home/jingbao/jdk1.8/jre/lib/ext/zipfs.jar:/home/jingbao/jdk1.8/jre/lib/javaws.jar:/home/jingbao/jdk1.8/jre/lib/jce.jar:/home/jingbao/jdk1.8/jre/lib/jfr.jar:/home/jingbao/jdk1.8/jre/lib/jfxswt.jar:/home/jingbao/jdk1.8/jre/lib/jsse.jar:/home/jingbao/jdk1.8/jre/lib/management-agent.jar:/home/jingbao/jdk1.8/jre/lib/plugin.jar:/home/jingbao/jdk1.8/jre/lib/resources.jar:/home/jingbao/jdk1.8/jre/lib/rt.jar:/home/jingbao/IdeaProjects/untitled4/out/production/untitled4:/home/jingbao/下载/mysql-connector-java-5.0.8-bin.jar:/home/jingbao/IdeaProjects/untitled4/libb/netty-all-5.0.0.Alpha2.jar:/home/jingbao/IdeaProjects/untitled4/libb/slf4j-api-1.7.21.jar:/home/jingbao/IdeaProjects/untitled4/libb/httpmime-4.5.1.jar:/home/jingbao/IdeaProjects/untitled4/libb/fastjson-1.1.33.jar:/home/jingbao/IdeaProjects/untitled4/libb/jna-4.2.2.jar:/home/jingbao/IdeaProjects/untitled4/libb/js.jar:/home/jingbao/IdeaProjects/untitled4/libb/httpclient-4.5.1.jar:/home/jingbao/IdeaProjects/untitled4/libb/httpcore-4.4.3.jar:/home/jingbao/IdeaProjects/untitled4/libb/affinity-3.0.7-SNAPSHOT.jar:/home/jingbao/IdeaProjects/untitled4/libb/commons-io-2.5.jar:/home/jingbao/IdeaProjects/untitled4/libb/commons-logging-1.2.jar:/home/jingbao/IdeaProjects/untitled4/libb/aaaa.jar:/home/jingbao/IdeaProjects/untitled4/libb/log4j-1.2.17.jar:/home/jingbao/IdeaProjects/untitled4/libb/junit-4.4.jar:/home/jingbao/IdeaProjects/untitled4/libb/mysql-connector-java-5.1.18.jar:/home/jingbao/IdeaProjects/untitled4/libb/org.eclipse.paho.client.mqttv3-1.0.1.jar:/home/jingbao/IdeaProjects/untitled4/libb/protobuf-java-2.4.1.jar:/home/jingbao/IdeaProjects/untitled4/libb/protobuf-socket-rpc-2.0.jar:/home/jingbao/IdeaProjects/untitled4/libb/sigar-1.6.4.jar:/home/jingbao/IdeaProjects/untitled4/libb/slf4j-log4j12-1.7.7.jar:/home/jingbao/IdeaProjects/untitled4/libb/tools.jar:/home/jingbao/IdeaProjects/untitled4/libb/jedis-2.9.0.jar:/home/jingbao/IdeaProjects/untitled4/libb/org.apache.commons.codec-1.8.jar:/home/jingbao/IdeaProjects/untitled4/libb/commons-codec-1.10.jar:/home/jingbao/IdeaProjects/untitled4/libb/commons-codec-1.4.jar:/home/jingbao/IdeaProjects/untitled4/libb/commons-httpclient-3.1.jar:/home/jingbao/IdeaProjects/untitled4/libb/commons-logging-1.1.1.jar:/home/jingbao/idea-IU-171.4073.35/lib/idea_rt.jar
+DEBUG [2018-08-07 14:15:19,000] org.apache.commons.httpclient.HttpClient - Operating system name: Linux
+DEBUG [2018-08-07 14:15:19,000] org.apache.commons.httpclient.HttpClient - Operating system architecture: amd64
+DEBUG [2018-08-07 14:15:19,001] org.apache.commons.httpclient.HttpClient - Operating system version: 4.15.0-29-generic
+DEBUG [2018-08-07 14:15:19,407] org.apache.commons.httpclient.HttpClient - SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+DEBUG [2018-08-07 14:15:19,407] org.apache.commons.httpclient.HttpClient - SunRsaSign 1.8: Sun RSA signature provider
+DEBUG [2018-08-07 14:15:19,407] org.apache.commons.httpclient.HttpClient - SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+DEBUG [2018-08-07 14:15:19,407] org.apache.commons.httpclient.HttpClient - SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+DEBUG [2018-08-07 14:15:19,407] org.apache.commons.httpclient.HttpClient - SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+DEBUG [2018-08-07 14:15:19,407] org.apache.commons.httpclient.HttpClient - SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+DEBUG [2018-08-07 14:15:19,407] org.apache.commons.httpclient.HttpClient - SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+DEBUG [2018-08-07 14:15:19,408] org.apache.commons.httpclient.HttpClient - XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+DEBUG [2018-08-07 14:15:19,408] org.apache.commons.httpclient.HttpClient - SunPCSC 1.8: Sun PC/SC provider
+DEBUG [2018-08-07 14:15:19,413] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+DEBUG [2018-08-07 14:15:19,420] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.version = HTTP/1.1
+DEBUG [2018-08-07 14:15:19,425] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+DEBUG [2018-08-07 14:15:19,427] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.cookie-policy = default
+DEBUG [2018-08-07 14:15:19,427] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.element-charset = US-ASCII
+DEBUG [2018-08-07 14:15:19,427] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.content-charset = ISO-8859-1
+DEBUG [2018-08-07 14:15:19,432] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@28ba21f3
+DEBUG [2018-08-07 14:15:19,434] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+DEBUG [2018-08-07 14:15:19,550] org.apache.commons.httpclient.HttpConnection - Open connection to utf8.api.smschinese.cn:80
+DEBUG [2018-08-07 14:15:21,265] httpclient.wire.header - >> "POST / HTTP/1.1[\r][\n]"
+DEBUG [2018-08-07 14:15:21,266] org.apache.commons.httpclient.HttpMethodBase - Adding Host request header
+DEBUG [2018-08-07 14:15:21,275] httpclient.wire.header - >> "Content-Type: application/x-www-form-urlencoded;charset=utf8[\r][\n]"
+DEBUG [2018-08-07 14:15:21,275] httpclient.wire.header - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+DEBUG [2018-08-07 14:15:21,275] httpclient.wire.header - >> "Host: utf8.api.smschinese.cn[\r][\n]"
+DEBUG [2018-08-07 14:15:21,275] httpclient.wire.header - >> "Content-Length: 86[\r][\n]"
+DEBUG [2018-08-07 14:15:21,275] httpclient.wire.header - >> "[\r][\n]"
+DEBUG [2018-08-07 14:15:21,275] httpclient.wire.content - >> "Uid=jingbao7721&Key=d41d8cd98f00b204e980&smsMob=17602648919&smsText=jingbao7721%3Atest"
+DEBUG [2018-08-07 14:15:21,275] org.apache.commons.httpclient.methods.EntityEnclosingMethod - Request body sent
+DEBUG [2018-08-07 14:15:21,470] httpclient.wire.header - << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG [2018-08-07 14:15:21,470] httpclient.wire.header - << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG [2018-08-07 14:15:21,471] httpclient.wire.header - << "Cache-Control: no-cache[\r][\n]"
+DEBUG [2018-08-07 14:15:21,472] httpclient.wire.header - << "Content-Length: 3[\r][\n]"
+DEBUG [2018-08-07 14:15:21,472] httpclient.wire.header - << "Content-Type: text/html; Charset=UTF-8[\r][\n]"
+DEBUG [2018-08-07 14:15:21,472] httpclient.wire.header - << "Expires: Mon, 06 Aug 2018 06:15:16 GMT[\r][\n]"
+DEBUG [2018-08-07 14:15:21,472] httpclient.wire.header - << "Server: Microsoft-IIS/7.5[\r][\n]"
+DEBUG [2018-08-07 14:15:21,472] httpclient.wire.header - << "Set-Cookie: CHNET=Temp%5Fusername=20188714151659839; expires=Mon, 03-May-2021 06:15:16 GMT; path=/[\r][\n]"
+DEBUG [2018-08-07 14:15:21,473] httpclient.wire.header - << "Set-Cookie: ASPSESSIONIDSSRATBRR=GLMNKACANPEIOKDHFDLCJKDL; path=/[\r][\n]"
+DEBUG [2018-08-07 14:15:21,473] httpclient.wire.header - << "X-Powered-By: ASP.NET[\r][\n]"
+DEBUG [2018-08-07 14:15:21,473] httpclient.wire.header - << "Date: Tue, 07 Aug 2018 06:15:15 GMT[\r][\n]"
+DEBUG [2018-08-07 14:15:21,473] httpclient.wire.header - << "[\r][\n]"
+DEBUG [2018-08-07 14:15:22,000] org.apache.commons.httpclient.HttpMethodBase - Cookie accepted: "$Version=0; CHNET=Temp%5Fusername=20188714151659839; $Path=/"
+DEBUG [2018-08-07 14:15:22,001] org.apache.commons.httpclient.HttpMethodBase - Cookie accepted: "$Version=0; ASPSESSIONIDSSRATBRR=GLMNKACANPEIOKDHFDLCJKDL; $Path=/"
+DEBUG [2018-08-07 14:15:22,003] org.apache.commons.httpclient.HttpMethodBase - Buffering response body
+DEBUG [2018-08-07 14:15:22,005] httpclient.wire.content - << "-51"
+DEBUG [2018-08-07 14:15:22,006] org.apache.commons.httpclient.HttpMethodBase - Resorting to protocol version default close connection policy
+DEBUG [2018-08-07 14:15:22,006] org.apache.commons.httpclient.HttpMethodBase - Should NOT close connection, using HTTP/1.1
+DEBUG [2018-08-07 14:15:22,006] org.apache.commons.httpclient.HttpConnection - Releasing connection back to connection manager.
+DEBUG [2018-08-07 14:22:15,881] org.apache.commons.httpclient.HttpClient - Java version: 1.8.0_131
+DEBUG [2018-08-07 14:22:15,889] org.apache.commons.httpclient.HttpClient - Java vendor: Oracle Corporation
+DEBUG [2018-08-07 14:22:15,890] org.apache.commons.httpclient.HttpClient - Java class path: /home/jingbao/jdk1.8/jre/lib/charsets.jar:/home/jingbao/jdk1.8/jre/lib/deploy.jar:/home/jingbao/jdk1.8/jre/lib/ext/cldrdata.jar:/home/jingbao/jdk1.8/jre/lib/ext/dnsns.jar:/home/jingbao/jdk1.8/jre/lib/ext/jaccess.jar:/home/jingbao/jdk1.8/jre/lib/ext/jfxrt.jar:/home/jingbao/jdk1.8/jre/lib/ext/localedata.jar:/home/jingbao/jdk1.8/jre/lib/ext/nashorn.jar:/home/jingbao/jdk1.8/jre/lib/ext/sunec.jar:/home/jingbao/jdk1.8/jre/lib/ext/sunjce_provider.jar:/home/jingbao/jdk1.8/jre/lib/ext/sunpkcs11.jar:/home/jingbao/jdk1.8/jre/lib/ext/zipfs.jar:/home/jingbao/jdk1.8/jre/lib/javaws.jar:/home/jingbao/jdk1.8/jre/lib/jce.jar:/home/jingbao/jdk1.8/jre/lib/jfr.jar:/home/jingbao/jdk1.8/jre/lib/jfxswt.jar:/home/jingbao/jdk1.8/jre/lib/jsse.jar:/home/jingbao/jdk1.8/jre/lib/management-agent.jar:/home/jingbao/jdk1.8/jre/lib/plugin.jar:/home/jingbao/jdk1.8/jre/lib/resources.jar:/home/jingbao/jdk1.8/jre/lib/rt.jar:/home/jingbao/IdeaProjects/untitled4/out/production/untitled4:/home/jingbao/下载/mysql-connector-java-5.0.8-bin.jar:/home/jingbao/IdeaProjects/untitled4/libb/netty-all-5.0.0.Alpha2.jar:/home/jingbao/IdeaProjects/untitled4/libb/slf4j-api-1.7.21.jar:/home/jingbao/IdeaProjects/untitled4/libb/httpmime-4.5.1.jar:/home/jingbao/IdeaProjects/untitled4/libb/fastjson-1.1.33.jar:/home/jingbao/IdeaProjects/untitled4/libb/jna-4.2.2.jar:/home/jingbao/IdeaProjects/untitled4/libb/js.jar:/home/jingbao/IdeaProjects/untitled4/libb/httpclient-4.5.1.jar:/home/jingbao/IdeaProjects/untitled4/libb/httpcore-4.4.3.jar:/home/jingbao/IdeaProjects/untitled4/libb/affinity-3.0.7-SNAPSHOT.jar:/home/jingbao/IdeaProjects/untitled4/libb/commons-io-2.5.jar:/home/jingbao/IdeaProjects/untitled4/libb/commons-logging-1.2.jar:/home/jingbao/IdeaProjects/untitled4/libb/aaaa.jar:/home/jingbao/IdeaProjects/untitled4/libb/log4j-1.2.17.jar:/home/jingbao/IdeaProjects/untitled4/libb/junit-4.4.jar:/home/jingbao/IdeaProjects/untitled4/libb/mysql-connector-java-5.1.18.jar:/home/jingbao/IdeaProjects/untitled4/libb/org.eclipse.paho.client.mqttv3-1.0.1.jar:/home/jingbao/IdeaProjects/untitled4/libb/protobuf-java-2.4.1.jar:/home/jingbao/IdeaProjects/untitled4/libb/protobuf-socket-rpc-2.0.jar:/home/jingbao/IdeaProjects/untitled4/libb/sigar-1.6.4.jar:/home/jingbao/IdeaProjects/untitled4/libb/slf4j-log4j12-1.7.7.jar:/home/jingbao/IdeaProjects/untitled4/libb/tools.jar:/home/jingbao/IdeaProjects/untitled4/libb/jedis-2.9.0.jar:/home/jingbao/IdeaProjects/untitled4/libb/org.apache.commons.codec-1.8.jar:/home/jingbao/IdeaProjects/untitled4/libb/commons-codec-1.10.jar:/home/jingbao/IdeaProjects/untitled4/libb/commons-codec-1.4.jar:/home/jingbao/IdeaProjects/untitled4/libb/commons-httpclient-3.1.jar:/home/jingbao/IdeaProjects/untitled4/libb/commons-logging-1.1.1.jar:/home/jingbao/idea-IU-171.4073.35/lib/idea_rt.jar
+DEBUG [2018-08-07 14:22:15,890] org.apache.commons.httpclient.HttpClient - Operating system name: Linux
+DEBUG [2018-08-07 14:22:15,890] org.apache.commons.httpclient.HttpClient - Operating system architecture: amd64
+DEBUG [2018-08-07 14:22:15,890] org.apache.commons.httpclient.HttpClient - Operating system version: 4.15.0-29-generic
+DEBUG [2018-08-07 14:22:16,103] org.apache.commons.httpclient.HttpClient - SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+DEBUG [2018-08-07 14:22:16,107] org.apache.commons.httpclient.HttpClient - SunRsaSign 1.8: Sun RSA signature provider
+DEBUG [2018-08-07 14:22:16,107] org.apache.commons.httpclient.HttpClient - SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+DEBUG [2018-08-07 14:22:16,107] org.apache.commons.httpclient.HttpClient - SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+DEBUG [2018-08-07 14:22:16,107] org.apache.commons.httpclient.HttpClient - SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+DEBUG [2018-08-07 14:22:16,117] org.apache.commons.httpclient.HttpClient - SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+DEBUG [2018-08-07 14:22:16,117] org.apache.commons.httpclient.HttpClient - SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+DEBUG [2018-08-07 14:22:16,118] org.apache.commons.httpclient.HttpClient - XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+DEBUG [2018-08-07 14:22:16,118] org.apache.commons.httpclient.HttpClient - SunPCSC 1.8: Sun PC/SC provider
+DEBUG [2018-08-07 14:22:16,131] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+DEBUG [2018-08-07 14:22:16,159] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.version = HTTP/1.1
+DEBUG [2018-08-07 14:22:16,167] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+DEBUG [2018-08-07 14:22:16,169] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.cookie-policy = default
+DEBUG [2018-08-07 14:22:16,169] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.element-charset = US-ASCII
+DEBUG [2018-08-07 14:22:16,169] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.content-charset = ISO-8859-1
+DEBUG [2018-08-07 14:22:16,184] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@28ba21f3
+DEBUG [2018-08-07 14:22:16,184] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+DEBUG [2018-08-07 14:22:16,291] org.apache.commons.httpclient.HttpConnection - Open connection to utf8.api.smschinese.cn:80
+DEBUG [2018-08-07 14:22:16,394] httpclient.wire.header - >> "POST / HTTP/1.1[\r][\n]"
+DEBUG [2018-08-07 14:22:16,394] org.apache.commons.httpclient.HttpMethodBase - Adding Host request header
+DEBUG [2018-08-07 14:22:16,428] httpclient.wire.header - >> "Content-Type: application/x-www-form-urlencoded;charset=utf8[\r][\n]"
+DEBUG [2018-08-07 14:22:16,428] httpclient.wire.header - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+DEBUG [2018-08-07 14:22:16,429] httpclient.wire.header - >> "Host: utf8.api.smschinese.cn[\r][\n]"
+DEBUG [2018-08-07 14:22:16,432] httpclient.wire.header - >> "Content-Length: 113[\r][\n]"
+DEBUG [2018-08-07 14:22:16,438] httpclient.wire.header - >> "[\r][\n]"
+DEBUG [2018-08-07 14:22:16,438] httpclient.wire.content - >> "Uid=jingbao7721&Key=d41d8cd98f00b204e980&smsMob=17602648919&smsText=share%3Axxx+%5B%E6%B7%98%E5%AE%9D%E7%BD%91%5D"
+DEBUG [2018-08-07 14:22:16,439] org.apache.commons.httpclient.methods.EntityEnclosingMethod - Request body sent
+DEBUG [2018-08-07 14:22:16,729] httpclient.wire.header - << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG [2018-08-07 14:22:16,729] httpclient.wire.header - << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG [2018-08-07 14:22:16,730] httpclient.wire.header - << "Cache-Control: no-cache[\r][\n]"
+DEBUG [2018-08-07 14:22:16,730] httpclient.wire.header - << "Content-Length: 3[\r][\n]"
+DEBUG [2018-08-07 14:22:16,730] httpclient.wire.header - << "Content-Type: text/html; Charset=UTF-8[\r][\n]"
+DEBUG [2018-08-07 14:22:16,731] httpclient.wire.header - << "Expires: Mon, 06 Aug 2018 06:22:10 GMT[\r][\n]"
+DEBUG [2018-08-07 14:22:16,731] httpclient.wire.header - << "Server: Microsoft-IIS/7.5[\r][\n]"
+DEBUG [2018-08-07 14:22:16,731] httpclient.wire.header - << "Set-Cookie: CHNET=Temp%5Fusername=20188714221173102; expires=Mon, 03-May-2021 06:22:10 GMT; path=/[\r][\n]"
+DEBUG [2018-08-07 14:22:16,731] httpclient.wire.header - << "Set-Cookie: ASPSESSIONIDSSRATBRR=ELLPKACAEJKJJAIKJAODOFKJ; path=/[\r][\n]"
+DEBUG [2018-08-07 14:22:16,731] httpclient.wire.header - << "X-Powered-By: ASP.NET[\r][\n]"
+DEBUG [2018-08-07 14:22:16,731] httpclient.wire.header - << "Date: Tue, 07 Aug 2018 06:22:10 GMT[\r][\n]"
+DEBUG [2018-08-07 14:22:16,731] httpclient.wire.header - << "[\r][\n]"
+DEBUG [2018-08-07 14:22:16,738] org.apache.commons.httpclient.HttpMethodBase - Cookie accepted: "$Version=0; CHNET=Temp%5Fusername=20188714221173102; $Path=/"
+DEBUG [2018-08-07 14:22:16,741] org.apache.commons.httpclient.HttpMethodBase - Cookie accepted: "$Version=0; ASPSESSIONIDSSRATBRR=ELLPKACAEJKJJAIKJAODOFKJ; $Path=/"
+DEBUG [2018-08-07 14:22:16,747] org.apache.commons.httpclient.HttpMethodBase - Buffering response body
+DEBUG [2018-08-07 14:22:16,749] httpclient.wire.content - << "-51"
+DEBUG [2018-08-07 14:22:16,749] org.apache.commons.httpclient.HttpMethodBase - Resorting to protocol version default close connection policy
+DEBUG [2018-08-07 14:22:16,749] org.apache.commons.httpclient.HttpMethodBase - Should NOT close connection, using HTTP/1.1
+DEBUG [2018-08-07 14:22:16,751] org.apache.commons.httpclient.HttpConnection - Releasing connection back to connection manager.
+DEBUG [2018-08-07 14:33:51,702] org.apache.commons.httpclient.HttpClient - Java version: 1.8.0_131
+DEBUG [2018-08-07 14:33:51,721] org.apache.commons.httpclient.HttpClient - Java vendor: Oracle Corporation
+DEBUG [2018-08-07 14:33:51,722] org.apache.commons.httpclient.HttpClient - Java class path: /home/jingbao/jdk1.8/jre/lib/charsets.jar:/home/jingbao/jdk1.8/jre/lib/deploy.jar:/home/jingbao/jdk1.8/jre/lib/ext/cldrdata.jar:/home/jingbao/jdk1.8/jre/lib/ext/dnsns.jar:/home/jingbao/jdk1.8/jre/lib/ext/jaccess.jar:/home/jingbao/jdk1.8/jre/lib/ext/jfxrt.jar:/home/jingbao/jdk1.8/jre/lib/ext/localedata.jar:/home/jingbao/jdk1.8/jre/lib/ext/nashorn.jar:/home/jingbao/jdk1.8/jre/lib/ext/sunec.jar:/home/jingbao/jdk1.8/jre/lib/ext/sunjce_provider.jar:/home/jingbao/jdk1.8/jre/lib/ext/sunpkcs11.jar:/home/jingbao/jdk1.8/jre/lib/ext/zipfs.jar:/home/jingbao/jdk1.8/jre/lib/javaws.jar:/home/jingbao/jdk1.8/jre/lib/jce.jar:/home/jingbao/jdk1.8/jre/lib/jfr.jar:/home/jingbao/jdk1.8/jre/lib/jfxswt.jar:/home/jingbao/jdk1.8/jre/lib/jsse.jar:/home/jingbao/jdk1.8/jre/lib/management-agent.jar:/home/jingbao/jdk1.8/jre/lib/plugin.jar:/home/jingbao/jdk1.8/jre/lib/resources.jar:/home/jingbao/jdk1.8/jre/lib/rt.jar:/home/jingbao/IdeaProjects/untitled4/out/production/untitled4:/home/jingbao/下载/mysql-connector-java-5.0.8-bin.jar:/home/jingbao/IdeaProjects/untitled4/libb/netty-all-5.0.0.Alpha2.jar:/home/jingbao/IdeaProjects/untitled4/libb/slf4j-api-1.7.21.jar:/home/jingbao/IdeaProjects/untitled4/libb/httpmime-4.5.1.jar:/home/jingbao/IdeaProjects/untitled4/libb/fastjson-1.1.33.jar:/home/jingbao/IdeaProjects/untitled4/libb/jna-4.2.2.jar:/home/jingbao/IdeaProjects/untitled4/libb/js.jar:/home/jingbao/IdeaProjects/untitled4/libb/httpclient-4.5.1.jar:/home/jingbao/IdeaProjects/untitled4/libb/httpcore-4.4.3.jar:/home/jingbao/IdeaProjects/untitled4/libb/affinity-3.0.7-SNAPSHOT.jar:/home/jingbao/IdeaProjects/untitled4/libb/commons-io-2.5.jar:/home/jingbao/IdeaProjects/untitled4/libb/commons-logging-1.2.jar:/home/jingbao/IdeaProjects/untitled4/libb/aaaa.jar:/home/jingbao/IdeaProjects/untitled4/libb/log4j-1.2.17.jar:/home/jingbao/IdeaProjects/untitled4/libb/junit-4.4.jar:/home/jingbao/IdeaProjects/untitled4/libb/mysql-connector-java-5.1.18.jar:/home/jingbao/IdeaProjects/untitled4/libb/org.eclipse.paho.client.mqttv3-1.0.1.jar:/home/jingbao/IdeaProjects/untitled4/libb/protobuf-java-2.4.1.jar:/home/jingbao/IdeaProjects/untitled4/libb/protobuf-socket-rpc-2.0.jar:/home/jingbao/IdeaProjects/untitled4/libb/sigar-1.6.4.jar:/home/jingbao/IdeaProjects/untitled4/libb/slf4j-log4j12-1.7.7.jar:/home/jingbao/IdeaProjects/untitled4/libb/tools.jar:/home/jingbao/IdeaProjects/untitled4/libb/jedis-2.9.0.jar:/home/jingbao/IdeaProjects/untitled4/libb/org.apache.commons.codec-1.8.jar:/home/jingbao/IdeaProjects/untitled4/libb/commons-codec-1.10.jar:/home/jingbao/IdeaProjects/untitled4/libb/commons-codec-1.4.jar:/home/jingbao/IdeaProjects/untitled4/libb/commons-httpclient-3.1.jar:/home/jingbao/IdeaProjects/untitled4/libb/commons-logging-1.1.1.jar:/home/jingbao/idea-IU-171.4073.35/lib/idea_rt.jar
+DEBUG [2018-08-07 14:33:51,723] org.apache.commons.httpclient.HttpClient - Operating system name: Linux
+DEBUG [2018-08-07 14:33:51,723] org.apache.commons.httpclient.HttpClient - Operating system architecture: amd64
+DEBUG [2018-08-07 14:33:51,723] org.apache.commons.httpclient.HttpClient - Operating system version: 4.15.0-29-generic
+DEBUG [2018-08-07 14:33:51,946] org.apache.commons.httpclient.HttpClient - SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+DEBUG [2018-08-07 14:33:51,946] org.apache.commons.httpclient.HttpClient - SunRsaSign 1.8: Sun RSA signature provider
+DEBUG [2018-08-07 14:33:51,946] org.apache.commons.httpclient.HttpClient - SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+DEBUG [2018-08-07 14:33:51,946] org.apache.commons.httpclient.HttpClient - SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+DEBUG [2018-08-07 14:33:51,946] org.apache.commons.httpclient.HttpClient - SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+DEBUG [2018-08-07 14:33:51,947] org.apache.commons.httpclient.HttpClient - SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+DEBUG [2018-08-07 14:33:51,947] org.apache.commons.httpclient.HttpClient - SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+DEBUG [2018-08-07 14:33:51,952] org.apache.commons.httpclient.HttpClient - XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+DEBUG [2018-08-07 14:33:51,952] org.apache.commons.httpclient.HttpClient - SunPCSC 1.8: Sun PC/SC provider
+DEBUG [2018-08-07 14:33:51,961] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+DEBUG [2018-08-07 14:33:51,970] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.version = HTTP/1.1
+DEBUG [2018-08-07 14:33:51,972] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+DEBUG [2018-08-07 14:33:51,976] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.cookie-policy = default
+DEBUG [2018-08-07 14:33:51,976] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.element-charset = US-ASCII
+DEBUG [2018-08-07 14:33:51,976] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.content-charset = ISO-8859-1
+DEBUG [2018-08-07 14:33:51,978] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@28ba21f3
+DEBUG [2018-08-07 14:33:51,980] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+DEBUG [2018-08-07 14:33:52,050] org.apache.commons.httpclient.HttpConnection - Open connection to utf8.api.smschinese.cn:80
+DEBUG [2018-08-07 14:33:52,137] httpclient.wire.header - >> "POST / HTTP/1.1[\r][\n]"
+DEBUG [2018-08-07 14:33:52,138] org.apache.commons.httpclient.HttpMethodBase - Adding Host request header
+DEBUG [2018-08-07 14:33:52,190] httpclient.wire.header - >> "Content-Type: application/x-www-form-urlencoded;charset=utf8[\r][\n]"
+DEBUG [2018-08-07 14:33:52,191] httpclient.wire.header - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+DEBUG [2018-08-07 14:33:52,191] httpclient.wire.header - >> "Host: utf8.api.smschinese.cn[\r][\n]"
+DEBUG [2018-08-07 14:33:52,192] httpclient.wire.header - >> "Content-Length: 113[\r][\n]"
+DEBUG [2018-08-07 14:33:52,197] httpclient.wire.header - >> "[\r][\n]"
+DEBUG [2018-08-07 14:33:52,199] httpclient.wire.content - >> "Uid=jingbao7721&Key=d41d8cd98f00b204e980&smsMob=17602648919&smsText=share%3Axxx+%5B%E6%B7%98%E5%AE%9D%E7%BD%91%5D"
+DEBUG [2018-08-07 14:33:52,199] org.apache.commons.httpclient.methods.EntityEnclosingMethod - Request body sent
+DEBUG [2018-08-07 14:33:52,497] httpclient.wire.header - << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG [2018-08-07 14:33:52,497] httpclient.wire.header - << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG [2018-08-07 14:33:52,498] httpclient.wire.header - << "Cache-Control: no-cache[\r][\n]"
+DEBUG [2018-08-07 14:33:52,498] httpclient.wire.header - << "Content-Length: 1[\r][\n]"
+DEBUG [2018-08-07 14:33:52,498] httpclient.wire.header - << "Content-Type: text/html; Charset=UTF-8[\r][\n]"
+DEBUG [2018-08-07 14:33:52,499] httpclient.wire.header - << "Expires: Mon, 06 Aug 2018 06:33:46 GMT[\r][\n]"
+DEBUG [2018-08-07 14:33:52,499] httpclient.wire.header - << "Server: Microsoft-IIS/7.5[\r][\n]"
+DEBUG [2018-08-07 14:33:52,499] httpclient.wire.header - << "Set-Cookie: CHNET=Temp%5Fusername=20188714334620738; expires=Mon, 03-May-2021 06:33:46 GMT; path=/[\r][\n]"
+DEBUG [2018-08-07 14:33:52,499] httpclient.wire.header - << "Set-Cookie: ASPSESSIONIDSSRATBRR=IOPCLACAHJLOGCFJDIKNDJKI; path=/[\r][\n]"
+DEBUG [2018-08-07 14:33:52,499] httpclient.wire.header - << "X-Powered-By: ASP.NET[\r][\n]"
+DEBUG [2018-08-07 14:33:52,499] httpclient.wire.header - << "Date: Tue, 07 Aug 2018 06:33:47 GMT[\r][\n]"
+DEBUG [2018-08-07 14:33:52,499] httpclient.wire.header - << "[\r][\n]"
+DEBUG [2018-08-07 14:33:52,507] org.apache.commons.httpclient.HttpMethodBase - Cookie accepted: "$Version=0; CHNET=Temp%5Fusername=20188714334620738; $Path=/"
+DEBUG [2018-08-07 14:33:52,511] org.apache.commons.httpclient.HttpMethodBase - Cookie accepted: "$Version=0; ASPSESSIONIDSSRATBRR=IOPCLACAHJLOGCFJDIKNDJKI; $Path=/"
+DEBUG [2018-08-07 14:33:52,515] org.apache.commons.httpclient.HttpMethodBase - Buffering response body
+DEBUG [2018-08-07 14:33:52,517] httpclient.wire.content - << "1"
+DEBUG [2018-08-07 14:33:52,519] org.apache.commons.httpclient.HttpMethodBase - Resorting to protocol version default close connection policy
+DEBUG [2018-08-07 14:33:52,519] org.apache.commons.httpclient.HttpMethodBase - Should NOT close connection, using HTTP/1.1
+DEBUG [2018-08-07 14:33:52,519] org.apache.commons.httpclient.HttpConnection - Releasing connection back to connection manager.
+DEBUG [2018-08-07 14:37:08,930] io.netty.buffer.PoolThreadCache - Freed 1 thread-local buffer(s) from thread: pool-2-thread-1
+DEBUG [2018-08-07 14:48:20,451] org.apache.commons.httpclient.HttpClient - Java version: 1.8.0_131
+DEBUG [2018-08-07 14:48:20,465] org.apache.commons.httpclient.HttpClient - Java vendor: Oracle Corporation
+DEBUG [2018-08-07 14:48:20,465] org.apache.commons.httpclient.HttpClient - Java class path: /home/jingbao/jdk1.8/jre/lib/charsets.jar:/home/jingbao/jdk1.8/jre/lib/deploy.jar:/home/jingbao/jdk1.8/jre/lib/ext/cldrdata.jar:/home/jingbao/jdk1.8/jre/lib/ext/dnsns.jar:/home/jingbao/jdk1.8/jre/lib/ext/jaccess.jar:/home/jingbao/jdk1.8/jre/lib/ext/jfxrt.jar:/home/jingbao/jdk1.8/jre/lib/ext/localedata.jar:/home/jingbao/jdk1.8/jre/lib/ext/nashorn.jar:/home/jingbao/jdk1.8/jre/lib/ext/sunec.jar:/home/jingbao/jdk1.8/jre/lib/ext/sunjce_provider.jar:/home/jingbao/jdk1.8/jre/lib/ext/sunpkcs11.jar:/home/jingbao/jdk1.8/jre/lib/ext/zipfs.jar:/home/jingbao/jdk1.8/jre/lib/javaws.jar:/home/jingbao/jdk1.8/jre/lib/jce.jar:/home/jingbao/jdk1.8/jre/lib/jfr.jar:/home/jingbao/jdk1.8/jre/lib/jfxswt.jar:/home/jingbao/jdk1.8/jre/lib/jsse.jar:/home/jingbao/jdk1.8/jre/lib/management-agent.jar:/home/jingbao/jdk1.8/jre/lib/plugin.jar:/home/jingbao/jdk1.8/jre/lib/resources.jar:/home/jingbao/jdk1.8/jre/lib/rt.jar:/home/jingbao/IdeaProjects/untitled4/out/production/untitled4:/home/jingbao/下载/mysql-connector-java-5.0.8-bin.jar:/home/jingbao/IdeaProjects/untitled4/libb/netty-all-5.0.0.Alpha2.jar:/home/jingbao/IdeaProjects/untitled4/libb/slf4j-api-1.7.21.jar:/home/jingbao/IdeaProjects/untitled4/libb/httpmime-4.5.1.jar:/home/jingbao/IdeaProjects/untitled4/libb/fastjson-1.1.33.jar:/home/jingbao/IdeaProjects/untitled4/libb/jna-4.2.2.jar:/home/jingbao/IdeaProjects/untitled4/libb/js.jar:/home/jingbao/IdeaProjects/untitled4/libb/httpclient-4.5.1.jar:/home/jingbao/IdeaProjects/untitled4/libb/httpcore-4.4.3.jar:/home/jingbao/IdeaProjects/untitled4/libb/affinity-3.0.7-SNAPSHOT.jar:/home/jingbao/IdeaProjects/untitled4/libb/commons-io-2.5.jar:/home/jingbao/IdeaProjects/untitled4/libb/commons-logging-1.2.jar:/home/jingbao/IdeaProjects/untitled4/libb/aaaa.jar:/home/jingbao/IdeaProjects/untitled4/libb/log4j-1.2.17.jar:/home/jingbao/IdeaProjects/untitled4/libb/junit-4.4.jar:/home/jingbao/IdeaProjects/untitled4/libb/mysql-connector-java-5.1.18.jar:/home/jingbao/IdeaProjects/untitled4/libb/org.eclipse.paho.client.mqttv3-1.0.1.jar:/home/jingbao/IdeaProjects/untitled4/libb/protobuf-java-2.4.1.jar:/home/jingbao/IdeaProjects/untitled4/libb/protobuf-socket-rpc-2.0.jar:/home/jingbao/IdeaProjects/untitled4/libb/sigar-1.6.4.jar:/home/jingbao/IdeaProjects/untitled4/libb/slf4j-log4j12-1.7.7.jar:/home/jingbao/IdeaProjects/untitled4/libb/tools.jar:/home/jingbao/IdeaProjects/untitled4/libb/jedis-2.9.0.jar:/home/jingbao/IdeaProjects/untitled4/libb/org.apache.commons.codec-1.8.jar:/home/jingbao/IdeaProjects/untitled4/libb/commons-codec-1.10.jar:/home/jingbao/IdeaProjects/untitled4/libb/commons-codec-1.4.jar:/home/jingbao/IdeaProjects/untitled4/libb/commons-httpclient-3.1.jar:/home/jingbao/IdeaProjects/untitled4/libb/commons-logging-1.1.1.jar:/home/jingbao/idea-IU-171.4073.35/lib/idea_rt.jar
+DEBUG [2018-08-07 14:48:20,465] org.apache.commons.httpclient.HttpClient - Operating system name: Linux
+DEBUG [2018-08-07 14:48:20,465] org.apache.commons.httpclient.HttpClient - Operating system architecture: amd64
+DEBUG [2018-08-07 14:48:20,465] org.apache.commons.httpclient.HttpClient - Operating system version: 4.15.0-29-generic
+DEBUG [2018-08-07 14:48:20,680] org.apache.commons.httpclient.HttpClient - SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+DEBUG [2018-08-07 14:48:20,682] org.apache.commons.httpclient.HttpClient - SunRsaSign 1.8: Sun RSA signature provider
+DEBUG [2018-08-07 14:48:20,682] org.apache.commons.httpclient.HttpClient - SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+DEBUG [2018-08-07 14:48:20,682] org.apache.commons.httpclient.HttpClient - SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+DEBUG [2018-08-07 14:48:20,682] org.apache.commons.httpclient.HttpClient - SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+DEBUG [2018-08-07 14:48:20,683] org.apache.commons.httpclient.HttpClient - SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+DEBUG [2018-08-07 14:48:20,683] org.apache.commons.httpclient.HttpClient - SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+DEBUG [2018-08-07 14:48:20,683] org.apache.commons.httpclient.HttpClient - XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+DEBUG [2018-08-07 14:48:20,683] org.apache.commons.httpclient.HttpClient - SunPCSC 1.8: Sun PC/SC provider
+DEBUG [2018-08-07 14:48:20,689] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+DEBUG [2018-08-07 14:48:20,702] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.version = HTTP/1.1
+DEBUG [2018-08-07 14:48:20,705] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+DEBUG [2018-08-07 14:48:20,707] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.cookie-policy = default
+DEBUG [2018-08-07 14:48:20,707] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.element-charset = US-ASCII
+DEBUG [2018-08-07 14:48:20,707] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.content-charset = ISO-8859-1
+DEBUG [2018-08-07 14:48:20,712] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@28ba21f3
+DEBUG [2018-08-07 14:48:20,714] org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+DEBUG [2018-08-07 14:48:20,818] org.apache.commons.httpclient.HttpConnection - Open connection to utf8.api.smschinese.cn:80
+DEBUG [2018-08-07 14:48:20,908] httpclient.wire.header - >> "POST / HTTP/1.1[\r][\n]"
+DEBUG [2018-08-07 14:48:20,909] org.apache.commons.httpclient.HttpMethodBase - Adding Host request header
+DEBUG [2018-08-07 14:48:20,944] httpclient.wire.header - >> "Content-Type: application/x-www-form-urlencoded;charset=utf8[\r][\n]"
+DEBUG [2018-08-07 14:48:20,945] httpclient.wire.header - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+DEBUG [2018-08-07 14:48:20,949] httpclient.wire.header - >> "Host: utf8.api.smschinese.cn[\r][\n]"
+DEBUG [2018-08-07 14:48:20,950] httpclient.wire.header - >> "Content-Length: 108[\r][\n]"
+DEBUG [2018-08-07 14:48:20,953] httpclient.wire.header - >> "[\r][\n]"
+DEBUG [2018-08-07 14:48:20,954] httpclient.wire.content - >> "Uid=jingbao7721&Key=d41d8cd98f00b204e980&smsMob=17602648919&smsText=%E9%AA%8C%E8%AF%81%E7%A0%81%EF%BC%9A7721"
+DEBUG [2018-08-07 14:48:20,954] org.apache.commons.httpclient.methods.EntityEnclosingMethod - Request body sent
+DEBUG [2018-08-07 14:48:21,430] httpclient.wire.header - << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG [2018-08-07 14:48:21,430] httpclient.wire.header - << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG [2018-08-07 14:48:21,431] httpclient.wire.header - << "Cache-Control: no-cache[\r][\n]"
+DEBUG [2018-08-07 14:48:21,431] httpclient.wire.header - << "Content-Length: 1[\r][\n]"
+DEBUG [2018-08-07 14:48:21,431] httpclient.wire.header - << "Content-Type: text/html; Charset=UTF-8[\r][\n]"
+DEBUG [2018-08-07 14:48:21,431] httpclient.wire.header - << "Expires: Mon, 06 Aug 2018 06:48:14 GMT[\r][\n]"
+DEBUG [2018-08-07 14:48:21,431] httpclient.wire.header - << "Server: Microsoft-IIS/7.5[\r][\n]"
+DEBUG [2018-08-07 14:48:21,431] httpclient.wire.header - << "Set-Cookie: CHNET=Temp%5Fusername=20188714481526111; expires=Mon, 03-May-2021 06:48:14 GMT; path=/[\r][\n]"
+DEBUG [2018-08-07 14:48:21,431] httpclient.wire.header - << "Set-Cookie: ASPSESSIONIDSSRATBRR=BDKGLACAHIHFKGGFFHAJBGOD; path=/[\r][\n]"
+DEBUG [2018-08-07 14:48:21,432] httpclient.wire.header - << "X-Powered-By: ASP.NET[\r][\n]"
+DEBUG [2018-08-07 14:48:21,432] httpclient.wire.header - << "Date: Tue, 07 Aug 2018 06:48:15 GMT[\r][\n]"
+DEBUG [2018-08-07 14:48:21,432] httpclient.wire.header - << "[\r][\n]"
+DEBUG [2018-08-07 14:48:21,453] org.apache.commons.httpclient.HttpMethodBase - Cookie accepted: "$Version=0; CHNET=Temp%5Fusername=20188714481526111; $Path=/"
+DEBUG [2018-08-07 14:48:21,456] org.apache.commons.httpclient.HttpMethodBase - Cookie accepted: "$Version=0; ASPSESSIONIDSSRATBRR=BDKGLACAHIHFKGGFFHAJBGOD; $Path=/"
+DEBUG [2018-08-07 14:48:21,461] org.apache.commons.httpclient.HttpMethodBase - Buffering response body
+DEBUG [2018-08-07 14:48:21,461] httpclient.wire.content - << "1"
+DEBUG [2018-08-07 14:48:21,461] org.apache.commons.httpclient.HttpMethodBase - Resorting to protocol version default close connection policy
+DEBUG [2018-08-07 14:48:21,461] org.apache.commons.httpclient.HttpMethodBase - Should NOT close connection, using HTTP/1.1
+DEBUG [2018-08-07 14:48:21,461] org.apache.commons.httpclient.HttpConnection - Releasing connection back to connection manager.

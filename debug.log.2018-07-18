@@ -1,0 +1,103 @@
+DEBUG [2018-07-18 23:36:54,149] mainServer.Server - aaaa
+DEBUG [2018-07-18 23:36:54,719] io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+DEBUG [2018-07-18 23:36:54,748] io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 4
+DEBUG [2018-07-18 23:36:54,904] io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+DEBUG [2018-07-18 23:36:54,905] io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+DEBUG [2018-07-18 23:36:54,905] io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+DEBUG [2018-07-18 23:36:54,906] io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+DEBUG [2018-07-18 23:36:54,916] io.netty.util.internal.PlatformDependent - Java version: 8
+DEBUG [2018-07-18 23:36:54,917] io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+DEBUG [2018-07-18 23:36:54,917] io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+DEBUG [2018-07-18 23:36:54,918] io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+DEBUG [2018-07-18 23:36:54,947] io.netty.util.internal.PlatformDependent - Javassist: unavailable
+DEBUG [2018-07-18 23:36:54,950] io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+DEBUG [2018-07-18 23:36:54,958] io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+DEBUG [2018-07-18 23:36:54,958] io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG [2018-07-18 23:36:54,959] io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+DEBUG [2018-07-18 23:36:55,010] io.netty.util.internal.NativeLibraryLoader - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+DEBUG [2018-07-18 23:36:55,012] io.netty.util.internal.NativeLibraryLoader - -Dio.netty.netty.workdir: /tmp (io.netty.tmpdir)
+DEBUG [2018-07-18 23:36:55,179] io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 2
+DEBUG [2018-07-18 23:36:55,185] io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 2
+DEBUG [2018-07-18 23:36:55,186] io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+DEBUG [2018-07-18 23:36:55,186] io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+DEBUG [2018-07-18 23:36:55,186] io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+DEBUG [2018-07-18 23:36:55,186] io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+DEBUG [2018-07-18 23:36:55,186] io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+DEBUG [2018-07-18 23:36:55,188] io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+DEBUG [2018-07-18 23:36:55,188] io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG [2018-07-18 23:36:55,188] io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG [2018-07-18 23:36:55,357] io.netty.channel.DefaultChannelId - -Dio.netty.processId: 1107 (auto-detected)
+DEBUG [2018-07-18 23:36:55,361] io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 84:ef:18:ff:fe:d2:55:55 (auto-detected)
+DEBUG [2018-07-18 23:36:55,365] io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xe213832196b448ea (took 101 ms)
+DEBUG [2018-07-18 23:36:55,446] io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+DEBUG [2018-07-18 23:36:55,447] io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+DEBUG [2018-07-18 23:36:55,449] io.netty.util.NetUtil - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+DEBUG [2018-07-18 23:36:55,449] io.netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128
+DEBUG [2018-07-18 23:44:40,667] io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetectionLevel: simple
+DEBUG [2018-07-18 23:44:40,956] io.netty.util.Recycler - -Dio.netty.recycler.maxCapacity: 262144
+INFO [2018-07-18 23:44:40,993] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd7b8ac84, /127.0.0.1:38412 => /127.0.0.1:7721])
+INFO [2018-07-18 23:44:41,104] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoods
+ERROR [2018-07-18 23:44:41,816] mainServer.InHandler - 
+java.lang.ArithmeticException: / by zero
+	at mainServer.InHandler.channelRead(InHandler.java:61)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.channel.ChannelHandlerAdapter.channelRead(ChannelHandlerAdapter.java:143)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:243)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:956)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:618)
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:331)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:250)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+DEBUG [2018-07-18 23:44:41,834] mainServer.InHandler - --------------------------------------
+INFO [2018-07-18 23:45:36,830] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xafd1eba0, /127.0.0.1:38434 => /127.0.0.1:7721])
+INFO [2018-07-18 23:45:36,832] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoods
+ERROR [2018-07-18 23:45:37,741] mainServer.InHandler - 
+java.lang.ArithmeticException: / by zero
+	at mainServer.InHandler.channelRead(InHandler.java:61)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.channel.ChannelHandlerAdapter.channelRead(ChannelHandlerAdapter.java:143)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:243)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:956)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:618)
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:331)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:250)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+DEBUG [2018-07-18 23:45:37,751] mainServer.InHandler - --------------------------------------

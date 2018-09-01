@@ -1,0 +1,3 @@
+ERROR [2018-07-17 00:28:40,052] log4jtest.Test - This is error
+java.lang.ArithmeticException: / by zero
+	at log4jtest.Test.main(Test.java:17)

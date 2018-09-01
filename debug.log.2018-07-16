@@ -1,0 +1,25 @@
+INFO [2018-07-16 23:03:04,083] control.Take - this is info
+INFO [2018-07-16 23:03:46,864] control.Take - this is info
+INFO [2018-07-16 23:06:04,182] control.Take - this is info
+INFO [2018-07-16 23:07:43,793] control.Take - this is info
+INFO [2018-07-16 23:09:46,625] control.Take - this is info
+INFO [2018-07-16 23:22:36,442] control.Take - s:love
+INFO [2018-07-16 23:22:36,444] control.Take - this is info
+INFO [2018-07-16 23:37:17,266] control.Take - this is info
+INFO [2018-07-16 23:37:44,765] control.Take - this is info
+INFO [2018-07-16 23:37:57,629] control.Take - this is info
+ERROR [2018-07-16 23:37:57,639] control.Take - this is error
+INFO [2018-07-16 23:40:23,820] control.Take - this is info
+INFO [2018-07-16 23:40:43,281] control.Take - this is info
+ERROR [2018-07-16 23:40:43,288] control.Take - this error is:
+java.lang.ArithmeticException: / by zero
+	at control.Take.main(Take.java:30)
+ERROR [2018-07-16 23:40:43,290] control.Take - this is error
+INFO [2018-07-16 23:41:22,614] control.Take - this is info
+ERROR [2018-07-16 23:41:22,619] control.Take - this error is:java.lang.ArithmeticException: / by zero
+ERROR [2018-07-16 23:41:22,621] control.Take - this is error
+INFO [2018-07-16 23:41:51,832] control.Take - this is info
+ERROR [2018-07-16 23:41:51,839] control.Take - this error is:
+java.lang.ArithmeticException: / by zero
+	at control.Take.main(Take.java:30)
+ERROR [2018-07-16 23:41:51,845] control.Take - this is error

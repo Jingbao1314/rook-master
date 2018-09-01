@@ -1,0 +1,177 @@
+DEBUG [2018-08-31 16:40:35,850] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [2018-08-31 16:40:37,175] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:40:37,177] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:40:37,178] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:40:37,178] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:40:37,345] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG [2018-08-31 16:40:37,738] org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 112061925.
+DEBUG [2018-08-31 16:40:37,739] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@6adede5]
+DEBUG [2018-08-31 16:40:37,744] mybatistest.dao.IUser.insertUser - ==>  Preparing: INSERT INTO USER(id, sex, name,phone) VALUES(?, ?, ?, ?) 
+DEBUG [2018-08-31 16:40:37,788] mybatistest.dao.IUser.insertUser - ==> Parameters: 0(Integer), xx(String), Google(String), 18256127721(String)
+DEBUG [2018-08-31 16:41:49,606] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [2018-08-31 16:41:49,756] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:41:49,758] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:41:49,758] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:41:49,759] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:41:49,919] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG [2018-08-31 16:41:50,225] org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 112061925.
+DEBUG [2018-08-31 16:41:50,227] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@6adede5]
+DEBUG [2018-08-31 16:41:50,232] mybatistest.dao.IUser.insertUser - ==>  Preparing: INSERT INTO user(id,sex,name,phone) VALUES(?,?,?,?) 
+DEBUG [2018-08-31 16:41:50,353] mybatistest.dao.IUser.insertUser - ==> Parameters: 0(Integer), xx(String), Google(String), 18256127721(String)
+DEBUG [2018-08-31 16:41:50,355] mybatistest.dao.IUser.insertUser - <==    Updates: 1
+DEBUG [2018-08-31 16:41:50,355] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.jdbc.Connection@6adede5]
+DEBUG [2018-08-31 16:45:14,518] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [2018-08-31 16:45:14,666] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:45:14,668] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:45:14,669] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:45:14,669] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:45:14,814] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG [2018-08-31 16:45:15,087] org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1690287238.
+DEBUG [2018-08-31 16:45:15,087] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@64bfbc86]
+DEBUG [2018-08-31 16:45:15,089] mybatistest.dao.IUser.getUserList - ==>  Preparing: SELECT * FROM user 
+DEBUG [2018-08-31 16:45:15,181] mybatistest.dao.IUser.getUserList - ==> Parameters: 
+DEBUG [2018-08-31 16:45:15,284] mybatistest.dao.IUser.getUserList - <==      Total: 15
+DEBUG [2018-08-31 16:47:08,257] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [2018-08-31 16:47:08,420] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:47:08,422] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:47:08,423] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:47:08,423] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:47:34,849] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [2018-08-31 16:47:34,999] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:47:35,002] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:47:35,002] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:47:35,003] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:47:35,155] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG [2018-08-31 16:47:35,411] org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1690287238.
+DEBUG [2018-08-31 16:47:35,413] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@64bfbc86]
+DEBUG [2018-08-31 16:47:35,414] mybatistest.dao.IUser.getUserList - ==>  Preparing: SELECT * FROM user 
+DEBUG [2018-08-31 16:47:35,482] mybatistest.dao.IUser.getUserList - ==> Parameters: 
+DEBUG [2018-08-31 16:47:35,536] mybatistest.dao.IUser.getUserList - <==      Total: 15
+DEBUG [2018-08-31 16:55:35,012] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [2018-08-31 16:55:35,194] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:55:35,198] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:55:35,198] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:55:35,199] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:57:01,552] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [2018-08-31 16:57:01,741] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:57:01,743] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:57:01,744] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:57:01,744] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:57:01,890] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG [2018-08-31 16:57:02,278] org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 280884709.
+DEBUG [2018-08-31 16:57:02,282] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@10bdf5e5]
+DEBUG [2018-08-31 16:57:02,288] mybatistest.dao.IGoods.getGoodsList - ==>  Preparing: SELECT * FROM goods 
+DEBUG [2018-08-31 16:57:02,339] mybatistest.dao.IGoods.getGoodsList - ==> Parameters: 
+DEBUG [2018-08-31 16:57:02,386] mybatistest.dao.IGoods.getGoodsList - <==      Total: 10
+DEBUG [2018-08-31 16:58:35,994] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [2018-08-31 16:58:36,191] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:58:36,193] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:58:36,194] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:58:36,194] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 16:58:36,378] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG [2018-08-31 16:58:36,718] org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 280884709.
+DEBUG [2018-08-31 16:58:36,718] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@10bdf5e5]
+DEBUG [2018-08-31 16:58:36,720] mybatistest.dao.IUser.getUserList - ==>  Preparing: SELECT * FROM user 
+DEBUG [2018-08-31 16:58:36,747] mybatistest.dao.IUser.getUserList - ==> Parameters: 
+DEBUG [2018-08-31 16:58:36,788] mybatistest.dao.IUser.getUserList - <==      Total: 15
+DEBUG [2018-08-31 17:21:53,940] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [2018-08-31 17:21:54,229] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:21:54,232] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:21:54,233] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:21:54,233] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:21:54,464] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG [2018-08-31 17:21:54,810] org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1690254271.
+DEBUG [2018-08-31 17:21:54,810] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@64bf3bbf]
+DEBUG [2018-08-31 17:21:54,811] mybatistest.dao.IUser.insertUser - ==>  Preparing: INSERT INTO user(id,sex,name,phone) VALUES(?,?,?,?) 
+DEBUG [2018-08-31 17:21:54,842] mybatistest.dao.IUser.insertUser - ==> Parameters: 0(Integer), xx(String), Google(String), 18256127721(String)
+DEBUG [2018-08-31 17:22:50,996] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [2018-08-31 17:22:51,507] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:22:51,526] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:22:51,527] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:22:51,527] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:22:52,143] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG [2018-08-31 17:22:52,752] org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1690254271.
+DEBUG [2018-08-31 17:22:52,753] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@64bf3bbf]
+DEBUG [2018-08-31 17:22:52,757] mybatistest.dao.IUser.insertUser - ==>  Preparing: INSERT INTO user(id,sex,name,phone) VALUES(?,?,?,?) 
+DEBUG [2018-08-31 17:22:52,853] mybatistest.dao.IUser.insertUser - ==> Parameters: 100(Integer), xx(String), Google(String), 18256127721(String)
+DEBUG [2018-08-31 17:22:52,857] mybatistest.dao.IUser.insertUser - <==    Updates: 1
+DEBUG [2018-08-31 17:22:52,858] mybatistest.dao.IUser.insertUser!selectKey - ==>  Preparing: SELECT @@IDENTITY AS ID 
+DEBUG [2018-08-31 17:22:52,859] mybatistest.dao.IUser.insertUser!selectKey - ==> Parameters: 
+DEBUG [2018-08-31 17:23:07,045] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [2018-08-31 17:23:07,315] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:23:07,323] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:23:07,323] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:23:07,324] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:23:07,606] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG [2018-08-31 17:23:07,986] org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 422250493.
+DEBUG [2018-08-31 17:23:07,989] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@192b07fd]
+DEBUG [2018-08-31 17:23:07,992] mybatistest.dao.IUser.insertUser - ==>  Preparing: INSERT INTO user(id,sex,name,phone) VALUES(?,?,?,?) 
+DEBUG [2018-08-31 17:23:08,046] mybatistest.dao.IUser.insertUser - ==> Parameters: 100(Integer), xx(String), Google(String), 18256127721(String)
+DEBUG [2018-08-31 17:23:08,051] mybatistest.dao.IUser.insertUser - <==    Updates: 1
+DEBUG [2018-08-31 17:23:08,051] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.jdbc.Connection@192b07fd]
+DEBUG [2018-08-31 17:25:22,390] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [2018-08-31 17:25:22,715] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:25:22,726] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:25:22,727] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:25:22,727] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:25:23,070] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG [2018-08-31 17:25:23,663] org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1690254271.
+DEBUG [2018-08-31 17:25:23,669] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@64bf3bbf]
+DEBUG [2018-08-31 17:25:23,672] mybatistest.dao.IUser.insertUser - ==>  Preparing: INSERT INTO user(id,sex,name,phone) VALUES(?,?,?,?) 
+DEBUG [2018-08-31 17:25:23,783] mybatistest.dao.IUser.insertUser - ==> Parameters: 200(Integer), xx(String), Google(String), 18256127721(String)
+DEBUG [2018-08-31 17:25:23,786] mybatistest.dao.IUser.insertUser - <==    Updates: 1
+DEBUG [2018-08-31 17:25:23,791] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.jdbc.Connection@64bf3bbf]
+DEBUG [2018-08-31 17:25:56,206] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [2018-08-31 17:25:56,392] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:25:56,395] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:25:56,396] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:25:56,396] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:25:56,651] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG [2018-08-31 17:25:57,030] org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1690254271.
+DEBUG [2018-08-31 17:25:57,039] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@64bf3bbf]
+DEBUG [2018-08-31 17:25:57,043] mybatistest.dao.IUser.insertUser - ==>  Preparing: INSERT INTO user(id,sex,name,phone) VALUES(?,?,?,?) 
+DEBUG [2018-08-31 17:25:57,100] mybatistest.dao.IUser.insertUser - ==> Parameters: 300(Integer), xx(String), Google(String), 18256127721(String)
+DEBUG [2018-08-31 17:25:57,103] mybatistest.dao.IUser.insertUser - <==    Updates: 1
+DEBUG [2018-08-31 17:25:57,109] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.jdbc.Connection@64bf3bbf]
+DEBUG [2018-08-31 17:27:18,298] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [2018-08-31 17:27:18,518] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:27:18,520] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:27:18,521] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:27:18,521] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:27:18,717] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG [2018-08-31 17:27:19,159] org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1690254271.
+DEBUG [2018-08-31 17:27:19,162] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@64bf3bbf]
+DEBUG [2018-08-31 17:27:19,165] mybatistest.dao.IUser.insertUser - ==>  Preparing: INSERT INTO user(id,sex,name,phone) VALUES(?,?,?,?) 
+DEBUG [2018-08-31 17:27:19,286] mybatistest.dao.IUser.insertUser - ==> Parameters: 300(Integer), xx(String), Google(String), 18256127721(String)
+DEBUG [2018-08-31 17:28:23,671] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [2018-08-31 17:28:23,846] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:28:23,849] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:28:23,849] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:28:23,850] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:28:24,089] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG [2018-08-31 17:28:24,380] org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 422250493.
+DEBUG [2018-08-31 17:28:24,387] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@192b07fd]
+DEBUG [2018-08-31 17:28:24,389] mybatistest.dao.IUser.insertUser - ==>  Preparing: INSERT INTO user(id,sex,name,phone) VALUES(?,?,?,?) 
+DEBUG [2018-08-31 17:28:24,459] mybatistest.dao.IUser.insertUser - ==> Parameters: 300(Integer), xx(String), Google(String), 18256127721(String)
+DEBUG [2018-08-31 17:28:35,294] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [2018-08-31 17:28:35,708] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:28:35,710] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:28:35,711] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:28:35,711] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:28:36,053] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG [2018-08-31 17:28:36,491] org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 422250493.
+DEBUG [2018-08-31 17:28:36,492] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@192b07fd]
+DEBUG [2018-08-31 17:28:36,499] mybatistest.dao.IUser.insertUser - ==>  Preparing: INSERT INTO user(id,sex,name,phone) VALUES(?,?,?,?) 
+DEBUG [2018-08-31 17:28:36,584] mybatistest.dao.IUser.insertUser - ==> Parameters: 400(Integer), xx(String), Google(String), 18256127721(String)
+DEBUG [2018-08-31 17:28:36,592] mybatistest.dao.IUser.insertUser - <==    Updates: 1
+DEBUG [2018-08-31 17:28:36,592] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.jdbc.Connection@192b07fd]
+DEBUG [2018-08-31 17:37:33,825] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG [2018-08-31 17:37:34,092] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:37:34,095] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:37:34,096] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:37:34,096] org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG [2018-08-31 17:37:34,314] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG [2018-08-31 17:37:34,791] org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 422250493.
+DEBUG [2018-08-31 17:37:34,793] org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@192b07fd]
+DEBUG [2018-08-31 17:37:34,796] mybatistest.dao.IUser.insertUser - ==>  Preparing: INSERT INTO user(id,sex,name,phone) VALUES(?,?,?,?) 
+DEBUG [2018-08-31 17:37:34,865] mybatistest.dao.IUser.insertUser - ==> Parameters: 400(Integer), xx(String), Google(String), 18256127721(String)

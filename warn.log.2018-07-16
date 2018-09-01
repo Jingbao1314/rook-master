@@ -1,0 +1,11 @@
+ERROR 30 [2018-07-16 23:37:57,639] control.Take - this is error
+ERROR 33 [2018-07-16 23:40:43,288] control.Take - this error is:
+java.lang.ArithmeticException: / by zero
+	at control.Take.main(Take.java:30)
+ERROR 36 [2018-07-16 23:40:43,290] control.Take - this is error
+ERROR 33 [2018-07-16 23:41:22,619] control.Take - this error is:java.lang.ArithmeticException: / by zero
+ERROR 36 [2018-07-16 23:41:22,621] control.Take - this is error
+ERROR 33 [2018-07-16 23:41:51,839] control.Take - this error is:
+java.lang.ArithmeticException: / by zero
+	at control.Take.main(Take.java:30)
+ERROR 36 [2018-07-16 23:41:51,845] control.Take - this is error

@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="commons-logging-1.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libb/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libb/js.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libb/httpcore-4.4.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libb/commons-io-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libb/httpmime-4.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libb/aaaa.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libb/httpclient-4.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libb/mysql-connector-java-5.1.18.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libb/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libb/junit-4.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libb/fastjson-1.1.33.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libb/affinity-3.0.7-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libb/jna-4.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libb/tools.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libb/netty-all-5.0.0.Alpha2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libb/protobuf-java-2.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libb/protobuf-socket-rpc-2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libb/org.eclipse.paho.client.mqttv3-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libb/slf4j-api-1.7.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libb/slf4j-log4j12-1.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libb/sigar-1.6.4.jar!/" />
+      <root url="file://$PROJECT_DIR$/libb" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/libb" recursive="false" />
+  </library>
+</component>

@@ -1,0 +1,634 @@
+INFO 24 [2018-08-22 00:15:19,964] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x1354c440, /127.0.0.1:54870 => /127.0.0.1:7721])
+INFO 14 [2018-08-22 00:15:19,977] control.Login - this is Login{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:15382474859}
+INFO 24 [2018-08-22 00:15:19,978] util.JdbcMethod.LoginJdbc - LoginJdbc.select{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:15382474859}
+INFO 24 [2018-08-22 00:15:22,696] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x1354c440, /127.0.0.1:54870 => /127.0.0.1:7721])
+ERROR 29 [2018-08-22 00:15:22,697] control.Store - [1534868122697]Store doStore error
+java.lang.NullPointerException
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:25)
+	at control.Store.doStore(Store.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:97)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 00:39:07,364] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x79a01e28, /127.0.0.1:55630 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 00:39:07,426] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='kklk', cstate='55', photourl='444', phone='18222293350'}
+ERROR 72 [2018-08-22 00:39:07,619] util.JdbcMethod.StoreJdbc - This is error:
+java.sql.SQLException: No value specified for parameter 9
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:910)
+	at com.mysql.jdbc.PreparedStatement.fillSendPacket(PreparedStatement.java:1737)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1575)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1519)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1504)
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:59)
+	at control.Store.doStore(Store.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:97)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 00:41:24,158] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x508901c6, /127.0.0.1:55876 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 00:41:24,210] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='kklk', cstate='55', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 00:54:52,482] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x758248d1, /127.0.0.1:56396 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 00:54:52,553] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='kklk', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 00:55:00,566] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x8b303627, /127.0.0.1:56408 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 00:55:00,567] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='kklk', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 00:55:03,956] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xbfb05b44, /127.0.0.1:56420 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 00:55:03,961] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='kklk', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 00:55:06,123] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xa46f3c88, /127.0.0.1:56432 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 00:55:06,124] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='kklk', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 00:55:40,551] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x29eb9069, /127.0.0.1:56452 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 00:55:40,551] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='kklk', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 00:55:45,774] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x1cc3ce1c, /127.0.0.1:56466 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 00:55:45,775] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='kklk', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 00:58:03,385] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xa83518a6, /127.0.0.1:56668 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 00:58:03,396] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='kklk', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 00:59:24,850] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x86425197, /127.0.0.1:56694 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 00:59:24,855] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='kklk', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 01:00:27,589] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xcdadebe4, /127.0.0.1:56716 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 01:00:27,593] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='kklk', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 01:00:40,200] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xc9b6e4c7, /127.0.0.1:56934 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 01:00:40,259] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='kklk', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 01:04:07,402] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x925810f6, /127.0.0.1:57010 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 01:04:07,409] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='kklk', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 01:04:21,413] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x132a9bc9, /127.0.0.1:57232 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 01:04:21,450] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='kklk', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 01:05:00,667] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd4853e57, /127.0.0.1:57258 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 01:05:00,668] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='kklk', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 01:06:19,370] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x8b3cf8ab, /127.0.0.1:57490 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 01:06:19,417] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='kklk', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 01:06:36,728] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x3447286c, /127.0.0.1:57508 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 01:06:36,732] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='kklk', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 13:19:11,921] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x10acd81e, /127.0.0.1:58166 => /127.0.0.1:7721])
+INFO 35 [2018-08-22 13:19:12,024] util.JdbcMethod.RegisterJdbc - Register.register{id:0,name:xxxx,sex:null,balance:null,password:null,paypassword:0,phone:13555555555}
+INFO 24 [2018-08-22 13:20:35,823] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x10acd81e, /127.0.0.1:58166 => /127.0.0.1:7721])
+INFO 35 [2018-08-22 13:20:35,830] util.JdbcMethod.RegisterJdbc - Register.register{id:0,name:xxx,sex:null,balance:null,password:null,paypassword:0,phone:13555554444}
+INFO 24 [2018-08-22 13:21:24,455] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x10acd81e, /127.0.0.1:58166 => /127.0.0.1:7721])
+INFO 14 [2018-08-22 13:21:24,457] control.Login - this is Login{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13555554444}
+INFO 24 [2018-08-22 13:21:24,464] util.JdbcMethod.LoginJdbc - LoginJdbc.select{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13555554444}
+INFO 24 [2018-08-22 13:21:28,844] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x10acd81e, /127.0.0.1:58166 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 13:29:24,773] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x0c866cdb, /127.0.0.1:58440 => /127.0.0.1:7721])
+INFO 35 [2018-08-22 13:29:24,781] util.JdbcMethod.RegisterJdbc - Register.register{id:0,name:qwe,sex:null,balance:null,password:null,paypassword:0,phone:13888888888}
+INFO 24 [2018-08-22 13:29:44,644] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x0c866cdb, /127.0.0.1:58440 => /127.0.0.1:7721])
+INFO 14 [2018-08-22 13:29:44,645] control.Login - this is Login{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13888888888}
+INFO 24 [2018-08-22 13:29:44,646] util.JdbcMethod.LoginJdbc - LoginJdbc.select{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13888888888}
+INFO 24 [2018-08-22 13:29:46,916] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x0c866cdb, /127.0.0.1:58440 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 13:37:15,660] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd91f38bd, /127.0.0.1:58628 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 13:37:15,678] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 13:37:25,419] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd75838c1, /127.0.0.1:58640 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 13:37:25,420] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 13:39:03,972] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x17ca45c2, /127.0.0.1:58692 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 13:41:13,824] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x17ca45c2, /127.0.0.1:58692 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 13:41:13,839] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='null', caccount='null', cdata=null, csaledata=null, csaleaccount='null', ctype='null', cdescribe='null', cstate='null', photourl='null', phone='18222293350'}
+ERROR 29 [2018-08-22 13:41:13,842] control.Store - [1534916473842]Store doStore error
+redis.clients.jedis.exceptions.JedisDataException: value sent to redis cannot be null
+	at redis.clients.util.SafeEncoder.encode(SafeEncoder.java:28)
+	at redis.clients.jedis.Client.exists(Client.java:61)
+	at redis.clients.jedis.Jedis.exists(Jedis.java:178)
+	at util.redisutil.RedisOperating.exists(RedisOperating.java:116)
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:41)
+	at control.Store.doStore(Store.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:96)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 13:53:54,981] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x11b93801, /127.0.0.1:59162 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 13:53:55,033] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+ERROR 72 [2018-08-22 13:53:55,168] util.JdbcMethod.StoreJdbc - This is error:
+com.mysql.jdbc.exceptions.MySQLIntegrityConstraintViolationException: Duplicate entry '18222293350__1' for key 'PRIMARY'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:931)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2985)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1604)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1519)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1504)
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:59)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:94)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 13:54:20,394] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x766108e5, /127.0.0.1:59180 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 13:54:20,395] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 13:54:25,961] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x06475268, /127.0.0.1:59192 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 13:54:25,961] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 13:54:29,583] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x61e427c5, /127.0.0.1:59206 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 13:54:29,584] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 13:54:35,112] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x814b3a33, /127.0.0.1:59218 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 13:54:35,113] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 13:56:02,154] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xca2a4c55, /127.0.0.1:59308 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 13:57:31,087] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xca2a4c55, /127.0.0.1:59308 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 14:02:34,060] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x427947a6, /127.0.0.1:33888 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 14:02:34,158] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 14:02:38,654] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x7a8ab759, /127.0.0.1:33932 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 14:02:38,656] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 14:02:43,621] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x91418e91, /127.0.0.1:33982 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 14:02:43,622] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 14:02:58,520] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x2d66e06b, /127.0.0.1:34146 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 14:08:39,408] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x64493d53, /127.0.0.1:36994 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 14:18:11,758] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x19584f94, /127.0.0.1:38492 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 14:21:53,119] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x19584f94, /127.0.0.1:38492 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 14:23:26,034] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x19584f94, /127.0.0.1:38492 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 14:24:05,500] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x19584f94, /127.0.0.1:38492 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 14:25:14,030] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x19584f94, /127.0.0.1:38492 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 14:25:40,945] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x19584f94, /127.0.0.1:38492 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 14:26:06,073] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x19584f94, /127.0.0.1:38492 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 14:26:51,167] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x19584f94, /127.0.0.1:38492 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 14:26:57,454] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x19584f94, /127.0.0.1:38492 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 14:28:14,161] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x19584f94, /127.0.0.1:38492 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 14:29:42,170] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x19584f94, /127.0.0.1:38492 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 14:34:53,402] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x6f0ec5c0, /127.0.0.1:41012 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 14:37:43,468] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x6f0ec5c0, /127.0.0.1:41012 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 14:38:42,616] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x6f0ec5c0, /127.0.0.1:41012 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 14:41:17,376] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x6f0ec5c0, /127.0.0.1:41012 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 14:41:55,648] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x6f0ec5c0, /127.0.0.1:41012 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 14:43:04,209] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x6f0ec5c0, /127.0.0.1:41012 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 14:49:54,012] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd7592cd5, /127.0.0.1:41578 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 14:51:28,540] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd7592cd5, /127.0.0.1:41578 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 14:52:08,035] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd7592cd5, /127.0.0.1:41578 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 14:56:40,433] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd7592cd5, /127.0.0.1:41578 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 14:58:40,689] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd7592cd5, /127.0.0.1:41578 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 15:33:50,291] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x9ff1392c, /127.0.0.1:43648 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 15:36:30,071] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x9ff1392c, /127.0.0.1:43648 => /127.0.0.1:7721])
+INFO 14 [2018-08-22 15:36:30,075] control.Login - this is Login{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13888888888}
+INFO 24 [2018-08-22 15:36:30,076] util.JdbcMethod.LoginJdbc - LoginJdbc.select{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13888888888}
+INFO 24 [2018-08-22 15:36:32,445] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x9ff1392c, /127.0.0.1:43648 => /127.0.0.1:7721])
+ERROR 32 [2018-08-22 15:36:32,446] control.Store - [1534923392446]Store doStore error
+java.lang.NullPointerException
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:26)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:94)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 15:37:06,034] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x9ff1392c, /127.0.0.1:43648 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 15:44:24,475] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x4c56a8e5, /127.0.0.1:44148 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 15:52:38,716] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x3b85d52d, /127.0.0.1:44586 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 15:52:38,728] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 15:53:17,594] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x7a9c1f49, /127.0.0.1:44658 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 16:01:20,930] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd019073f, /127.0.0.1:44832 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 16:01:57,565] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd019073f, /127.0.0.1:44832 => /127.0.0.1:7721])
+INFO 14 [2018-08-22 16:01:57,565] control.Login - this is Login{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13888888888}
+INFO 24 [2018-08-22 16:01:59,576] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd019073f, /127.0.0.1:44832 => /127.0.0.1:7721])
+ERROR 32 [2018-08-22 16:01:59,578] control.Store - [1534924919578]Store doStore error
+java.lang.NullPointerException
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:26)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:94)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 16:02:04,277] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd019073f, /127.0.0.1:44832 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 16:11:05,530] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x1c312dd9, /127.0.0.1:45102 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 16:16:38,786] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x01efd9c2, /127.0.0.1:45324 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 16:19:12,488] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x01efd9c2, /127.0.0.1:45324 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 16:19:27,209] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x01efd9c2, /127.0.0.1:45324 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 16:19:29,110] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x01efd9c2, /127.0.0.1:45324 => /127.0.0.1:7721])
+ERROR 32 [2018-08-22 16:19:29,111] control.Store - [1534925969111]Store doStore error
+java.lang.NullPointerException
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:26)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:94)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 16:19:31,642] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x01efd9c2, /127.0.0.1:45324 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 16:21:39,406] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x01efd9c2, /127.0.0.1:45324 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 16:21:43,318] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x01efd9c2, /127.0.0.1:45324 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 16:22:03,263] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x01efd9c2, /127.0.0.1:45324 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 16:26:21,649] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x01efd9c2, /127.0.0.1:45324 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 16:32:01,536] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x6b89dc08, /127.0.0.1:45996 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 16:32:19,915] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x8143d044, /127.0.0.1:46010 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 16:32:19,916] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 16:32:25,348] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x604a1a9e, /127.0.0.1:46024 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 16:32:25,348] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 16:32:29,537] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xbad704ec, /127.0.0.1:46032 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 16:32:29,538] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 16:32:35,026] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x219a92b4, /127.0.0.1:46042 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 16:32:35,026] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 16:32:46,091] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x6b89dc08, /127.0.0.1:45996 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 16:38:05,483] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x0519bbe4, /127.0.0.1:46582 => /127.0.0.1:7721])
+INFO 35 [2018-08-22 16:38:05,529] util.JdbcMethod.RegisterJdbc - Register.register{id:0,name:xx,sex:null,balance:null,password:null,paypassword:0,phone:13888888888}
+INFO 24 [2018-08-22 16:38:27,514] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x0519bbe4, /127.0.0.1:46582 => /127.0.0.1:7721])
+INFO 14 [2018-08-22 16:38:27,516] control.Login - this is Login{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13888888888}
+INFO 24 [2018-08-22 16:38:27,517] util.JdbcMethod.LoginJdbc - LoginJdbc.select{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13888888888}
+INFO 24 [2018-08-22 16:38:29,825] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x0519bbe4, /127.0.0.1:46582 => /127.0.0.1:7721])
+ERROR 32 [2018-08-22 16:38:29,827] control.Store - [1534927109827]Store doStore error
+java.lang.NullPointerException
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:26)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:94)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 16:38:53,458] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x4d8240ee, /127.0.0.1:46666 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 16:38:53,459] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 16:38:59,139] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x491be58f, /127.0.0.1:46678 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 16:38:59,140] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 16:39:03,853] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x5f2eb4ee, /127.0.0.1:46688 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 16:39:03,854] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 16:39:08,877] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x29b093b9, /127.0.0.1:46700 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 16:39:08,879] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 16:39:20,096] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x0519bbe4, /127.0.0.1:46582 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 16:49:27,818] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xdbbc5d40, /127.0.0.1:47078 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 16:49:27,900] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+ERROR 73 [2018-08-22 16:49:28,130] util.JdbcMethod.StoreJdbc - This is error:
+com.mysql.jdbc.exceptions.MySQLIntegrityConstraintViolationException: Duplicate entry '18222293350__1' for key 'PRIMARY'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:931)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2985)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1604)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1519)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1504)
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:60)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:94)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 16:49:31,847] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x7334e547, /127.0.0.1:47090 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 16:49:31,849] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+ERROR 73 [2018-08-22 16:49:31,850] util.JdbcMethod.StoreJdbc - This is error:
+com.mysql.jdbc.exceptions.MySQLIntegrityConstraintViolationException: Duplicate entry '18222293350__1' for key 'PRIMARY'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:931)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2985)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1604)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1519)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1504)
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:60)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:94)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 16:49:34,599] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x0e9a065b, /127.0.0.1:47100 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 16:49:34,600] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+ERROR 73 [2018-08-22 16:49:34,608] util.JdbcMethod.StoreJdbc - This is error:
+com.mysql.jdbc.exceptions.MySQLIntegrityConstraintViolationException: Duplicate entry '18222293350__1' for key 'PRIMARY'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:931)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2985)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1604)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1519)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1504)
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:60)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:94)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 16:54:50,182] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x76b5ac56, /127.0.0.1:47170 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 16:54:50,192] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 16:54:54,611] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x78e1340e, /127.0.0.1:47182 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 16:54:54,612] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 16:54:57,640] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xc54a2541, /127.0.0.1:47192 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 16:54:57,641] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 16:55:25,570] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x23f8fe50, /127.0.0.1:47244 => /127.0.0.1:7721])
+INFO 35 [2018-08-22 16:55:25,572] util.JdbcMethod.RegisterJdbc - Register.register{id:0,name:xxx,sex:null,balance:null,password:null,paypassword:0,phone:13888888888}
+INFO 24 [2018-08-22 16:55:33,708] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x23f8fe50, /127.0.0.1:47244 => /127.0.0.1:7721])
+INFO 14 [2018-08-22 16:55:33,709] control.Login - this is Login{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13888888888}
+INFO 24 [2018-08-22 16:55:35,914] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x23f8fe50, /127.0.0.1:47244 => /127.0.0.1:7721])
+ERROR 32 [2018-08-22 16:55:36,085] control.Store - [1534928136085]Store doStore error
+java.lang.NullPointerException
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:26)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:94)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 16:55:39,509] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x23f8fe50, /127.0.0.1:47244 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 17:01:45,432] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xbfc4e6f0, /127.0.0.1:47414 => /127.0.0.1:7721])
+ERROR 32 [2018-08-22 17:01:45,439] control.Store - [1534928505439]Store doStore error
+java.lang.NullPointerException
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:26)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:94)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 17:02:16,003] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xbfc4e6f0, /127.0.0.1:47414 => /127.0.0.1:7721])
+INFO 35 [2018-08-22 17:02:16,005] util.JdbcMethod.RegisterJdbc - Register.register{id:0,name:用户名,sex:null,balance:null,password:null,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-22 17:02:29,548] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xbfc4e6f0, /127.0.0.1:47414 => /127.0.0.1:7721])
+INFO 14 [2018-08-22 17:02:29,549] control.Login - this is Login{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-22 17:02:29,550] util.JdbcMethod.LoginJdbc - LoginJdbc.select{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-22 17:02:31,637] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xbfc4e6f0, /127.0.0.1:47414 => /127.0.0.1:7721])
+ERROR 32 [2018-08-22 17:02:31,637] control.Store - [1534928551637]Store doStore error
+java.lang.NullPointerException
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:26)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:94)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 17:08:31,702] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x255b685d, /127.0.0.1:48330 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 17:08:31,704] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 17:14:03,205] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xf1617ad8, /127.0.0.1:49020 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 17:14:03,348] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 17:14:10,052] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x59dcac4e, /127.0.0.1:49034 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 17:14:10,056] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 17:15:35,356] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x00681498, /127.0.0.1:49094 => /127.0.0.1:7721])
+INFO 35 [2018-08-22 17:15:35,359] util.JdbcMethod.RegisterJdbc - Register.register{id:0,name:哟哦嗯互,sex:null,balance:null,password:null,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-22 17:15:46,114] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x00681498, /127.0.0.1:49094 => /127.0.0.1:7721])
+INFO 14 [2018-08-22 17:15:46,115] control.Login - this is Login{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-22 17:15:48,344] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x00681498, /127.0.0.1:49094 => /127.0.0.1:7721])
+ERROR 32 [2018-08-22 17:15:48,344] control.Store - [1534929348344]Store doStore error
+java.lang.NullPointerException
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:26)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:94)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 17:15:51,091] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x00681498, /127.0.0.1:49094 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 22:17:38,562] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xec3656c0, /127.0.0.1:51872 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 22:17:38,700] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 22:17:45,232] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd375ad47, /127.0.0.1:51884 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 22:17:45,232] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 22:17:51,015] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xf63e17cf, /127.0.0.1:51894 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 22:17:51,015] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 22:18:24,553] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd638719f, /127.0.0.1:51942 => /127.0.0.1:7721])
+INFO 35 [2018-08-22 22:18:24,930] util.JdbcMethod.RegisterJdbc - Register.register{id:0,name:纪,sex:null,balance:null,password:null,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-22 22:18:40,354] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd638719f, /127.0.0.1:51942 => /127.0.0.1:7721])
+INFO 14 [2018-08-22 22:18:40,355] control.Login - this is Login{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-22 22:18:40,360] util.JdbcMethod.LoginJdbc - LoginJdbc.select{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-22 22:18:44,005] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd638719f, /127.0.0.1:51942 => /127.0.0.1:7721])
+ERROR 32 [2018-08-22 22:18:44,006] control.Store - [1534947524006]Store doStore error
+java.lang.NullPointerException
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:26)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:94)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 22:18:49,901] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd638719f, /127.0.0.1:51942 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 22:20:36,131] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd638719f, /127.0.0.1:51942 => /127.0.0.1:7721])
+ERROR 32 [2018-08-22 22:20:36,137] control.Store - [1534947636137]Store doStore error
+java.lang.NullPointerException
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:26)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:94)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 22:21:09,218] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd638719f, /127.0.0.1:51942 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 22:22:20,682] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd638719f, /127.0.0.1:51942 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 22:22:56,906] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd638719f, /127.0.0.1:51942 => /127.0.0.1:7721])
+ERROR 32 [2018-08-22 22:22:56,907] control.Store - [1534947776907]Store doStore error
+java.lang.NullPointerException
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:26)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:94)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 22:23:24,980] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd638719f, /127.0.0.1:51942 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 22:23:27,390] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd638719f, /127.0.0.1:51942 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 22:23:28,682] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd638719f, /127.0.0.1:51942 => /127.0.0.1:7721])
+ERROR 32 [2018-08-22 22:23:28,683] control.Store - [1534947808683]Store doStore error
+java.lang.NullPointerException
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:26)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:94)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 22:28:14,754] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd638719f, /127.0.0.1:51942 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 22:30:05,110] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd638719f, /127.0.0.1:51942 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 22:31:35,728] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xf21303d6, /127.0.0.1:52592 => /127.0.0.1:7721])
+INFO 26 [2018-08-22 22:31:35,732] util.JdbcMethod.StoreJdbc - StoreJdbc.insertGoodsGoods{id='ss', caccount='23', cdata=, csaledata=, csaleaccount='4', ctype='555', cdescribe='好', cstate='', photourl='444', phone='18222293350'}
+INFO 24 [2018-08-22 22:31:40,419] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xd638719f, /127.0.0.1:51942 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 22:38:28,677] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xf9015331, /127.0.0.1:52886 => /127.0.0.1:7721])
+ERROR 32 [2018-08-22 22:38:28,679] control.Store - [1534948708679]Store doStore error
+java.lang.NullPointerException
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:26)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:94)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 22:38:28,811] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xf9015331, /127.0.0.1:52886 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 22:38:31,207] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xf9015331, /127.0.0.1:52886 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 22:38:46,227] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xf9015331, /127.0.0.1:52886 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 22:54:03,011] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xbd662a5f, /127.0.0.1:54150 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 22:54:04,412] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xbd662a5f, /127.0.0.1:54150 => /127.0.0.1:7721])
+ERROR 32 [2018-08-22 22:54:04,415] control.Store - [1534949644415]Store doStore error
+java.lang.NullPointerException
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:26)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:94)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 22:54:06,344] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xbd662a5f, /127.0.0.1:54150 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 22:54:07,510] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xbd662a5f, /127.0.0.1:54150 => /127.0.0.1:7721])
+ERROR 32 [2018-08-22 22:54:07,512] control.Store - [1534949647512]Store doStore error
+java.lang.NullPointerException
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:26)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:94)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 23:05:09,561] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x899e633a, /127.0.0.1:54382 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 23:05:26,129] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x899e633a, /127.0.0.1:54382 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 23:06:00,274] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x899e633a, /127.0.0.1:54382 => /127.0.0.1:7721])
+INFO 53 [2018-08-22 23:06:00,477] util.JdbcMethod.ImproveJdbc - ImproveJdbc.improve:{id:0,name:null,sex:男,balance:null,password:null,paypassword:507721,phone:null}
+INFO 24 [2018-08-22 23:18:04,038] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0x14aeda68, /127.0.0.1:33268 => /127.0.0.1:7721])
+ERROR 32 [2018-08-22 23:18:04,039] control.Store - [1534951084039]Store doStore error
+java.lang.NullPointerException
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:26)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:94)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 23:49:45,441] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xe822f4fb, /127.0.0.1:51174 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 23:49:46,492] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xe822f4fb, /127.0.0.1:51174 => /127.0.0.1:7721])
+ERROR 32 [2018-08-22 23:49:46,492] control.Store - [1534952986492]Store doStore error
+java.lang.NullPointerException
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:26)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:94)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 23:49:46,779] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xe822f4fb, /127.0.0.1:51174 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 23:49:49,584] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xe822f4fb, /127.0.0.1:51174 => /127.0.0.1:7721])
+INFO 24 [2018-08-22 23:49:50,606] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xe822f4fb, /127.0.0.1:51174 => /127.0.0.1:7721])
+ERROR 32 [2018-08-22 23:49:50,607] control.Store - [1534952990607]Store doStore error
+java.lang.NullPointerException
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:26)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:94)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 23:50:15,640] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xe822f4fb, /127.0.0.1:51174 => /127.0.0.1:7721])
+INFO 14 [2018-08-22 23:50:15,640] control.Login - this is Login{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-22 23:50:15,641] util.JdbcMethod.LoginJdbc - LoginJdbc.select{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-22 23:50:18,494] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xe822f4fb, /127.0.0.1:51174 => /127.0.0.1:7721])
+ERROR 32 [2018-08-22 23:50:18,498] control.Store - [1534953018498]Store doStore error
+java.lang.NullPointerException
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:26)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:94)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 24 [2018-08-22 23:50:31,888] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xe822f4fb, /127.0.0.1:51174 => /127.0.0.1:7721])
+INFO 14 [2018-08-22 23:50:31,889] control.Login - this is Login{id:0,name:null,sex:null,balance:null,password:null,paypassword:0,phone:13333333333}
+INFO 24 [2018-08-22 23:50:34,433] mainServer.InHandler - InHandler :ChannelHandlerContext(InHandler#0, [id: 0xe822f4fb, /127.0.0.1:51174 => /127.0.0.1:7721])
+ERROR 32 [2018-08-22 23:50:34,434] control.Store - [1534953034434]Store doStore error
+java.lang.NullPointerException
+	at util.JdbcMethod.StoreJdbc.insertGoods(StoreJdbc.java:26)
+	at control.Store.doStore(Store.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at mysevlete.ServletTest.doServlet(ServletTest.java:94)
+	at mainServer.WorkRunable.run(WorkRunable.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
